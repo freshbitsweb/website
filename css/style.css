@@ -112,7 +112,7 @@ div#preload { display: none; }
 	color:#50c68c;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color:transparent; 
+    background-color:transparent;
 	color:#50c68c;
 
 }
@@ -279,7 +279,7 @@ div#preload { display: none; }
 
 .landing-home {
 	color: #fff;
-	
+
 }
 
 .landing-home h1 {
@@ -319,7 +319,7 @@ div#preload { display: none; }
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	
+
 }
 
 .bg-container {
@@ -338,7 +338,7 @@ div#preload { display: none; }
 
 .form-wapper1 {
 	width: 180px!important;
-	
+
 }
 
 .form-wapper .form-btn1 {
@@ -641,16 +641,16 @@ div#preload { display: none; }
 .serv-img {
 	    width: 180px;
     height: 180px;
-     display: -webkit-box; 
+     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; 
-     -webkit-box-align: center; 
+    display: flex;
+     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; 
-    -webkit-justify-content: center; 
+    align-items: center;
+    -webkit-justify-content: center;
     -ms-justify-content: center;
-     justify-content: center; 
-     position: relative; 
+     justify-content: center;
+     position: relative;
 	 z-index:100;
 	 margin:0px auto;
 }
@@ -807,7 +807,7 @@ div#preload { display: none; }
 }
 .marquee {
 	overflow: hidden;
-	
+
 }
 
 .search-tag li a.orange {
@@ -1218,7 +1218,7 @@ div#preload { display: none; }
 }
 
 .team-member figcaption ul li:hover {
-	
+
 }
 .team-member figcaption ul li .con-btn{
 	padding: 10px 20px;
@@ -1312,7 +1312,7 @@ div#preload { display: none; }
 	border-radius: 23px;
 }
 
- 
+
 
  .form-wapper .form-btn {
 	width: 36px;
@@ -2606,7 +2606,7 @@ div#preload { display: none; }
 	height: 100vh;
    display: flex;
    flex-wrap: wrap;
-   
+
 }
 
 .contact-head {
@@ -2660,7 +2660,7 @@ div#preload { display: none; }
 
 .contact-right {
 	background-color: #b6701e;
-	background-image: url(../images/con-bg.png);
+	background-image: url(../images/contact-background.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -2804,7 +2804,7 @@ div#preload { display: none; }
     background:transparent;
    border: 1px solid #270;
    box-shadow:none;
-   
+
 }
 .popover.right>.arrow {
     top: 50%;
@@ -3054,41 +3054,41 @@ form label {
     width: 100%;
 }
 .team-pic {
-       position: relative;	
+       position: relative;
       background-position: center !important;
       height:329px;
 	  border-radius:10px;
 	  transition: all 0.6s ease-in-out;
 	  cursor:pointer;
     }
-	
+
 	.team-pic1 {
-   background: url(../images/team1.png) no-repeat;
+   background: url(../images/gaurav-makhecha.png) no-repeat;
 }
 .team-pic1:hover {
-   background: url(../images/team1_1.png) no-repeat;
+   background: url(../images/gaurav-makhecha-funny.png) no-repeat;
 }
 .team-pic2 {
-   background: url(../images/team2.png) no-repeat;
+   background: url(../images/hiren-keraliya.png) no-repeat;
 }
 .team-pic2:hover {
-   background: url(../images/team2_1.png) no-repeat;
+   background: url(../images/hiren-keraliya-funny.png) no-repeat;
 }
 .team-pic3 {
-   background: url(../images/team3.png) no-repeat;
+   background: url(../images/ramesh-tukadiya.png) no-repeat;
 }
 .team-pic3:hover {
-   background: url(../images/team3_1.png) no-repeat;
+   background: url(../images/ramesh-tukadiya-funny.png) no-repeat;
 }
 .team-pic4 {
-   background: url(../images/team4.png) no-repeat;
+   background: url(../images/maybe-you.png) no-repeat;
 }
 
 
     .team-pic:hover {
    border-radius: 10px;
 }
-	
+
 @media(max-width:1600px) {
 	.svg-bg-box {
 		top: -15vh;
@@ -3121,9 +3121,9 @@ form label {
    line-height: 25px;
 }
 form label {
- 
+
    font-size: 14px;
-  
+
    margin-bottom: 10px;
 }
 .edit-list li {
@@ -3364,9 +3364,9 @@ form textarea {
 		    padding-top: 40px;
 	}
 	.bg-inner {
-   
+
     align-items: flex-end;
-  
+
 }
 	.bg-image-container svg {
 		height: 300px;
@@ -3523,7 +3523,7 @@ form textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 	.contact-head {
 		font-size: 28px;
@@ -3718,7 +3718,7 @@ form textarea {
 }
 
 @media (max-width:600px) {
-   
+
 	.serv-card-left {
 		margin-right: 0px;
 	}
@@ -3740,7 +3740,7 @@ form textarea {
 		font-size: 12px;
 	}
 	.foot-inner {
-   
+
     margin: 10px auto;
 }
 	.f_m,
@@ -3763,7 +3763,7 @@ form textarea {
 	.logo-img {
 		width: 30%;
 	}
-	
+
 	.blog-page-right-up,
 	.blog-page-left,
 	.blog-page-right-down-left,
@@ -3786,7 +3786,7 @@ form textarea {
 }
 
 @media(max-width:400px) {
-	
+
 	.btn-submit {
 		width: 100%;
 	}
