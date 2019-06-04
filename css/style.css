@@ -633,14 +633,15 @@ div#preload { display: none; }
 	font-size: 26px;
 	letter-spacing: 1px;
 	color: #101626;
-	margin: 40px 0px;
+	margin: 30px 0px;
 	line-height: 45px;
-	text-align:center;
+    text-align:center;
+    height:80px;
 }
 
 .serv-img {
-	    width: 180px;
-    height: 180px;
+	    width: 140px;
+    height: 140px;
      display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -673,7 +674,8 @@ div#preload { display: none; }
 	color: #5b5e65;
 	margin: 0;
 	line-height: 35px;
-	text-align:center;
+    text-align:center;
+    height: 100px;
 }
 
 .portfolio-inner {
@@ -977,7 +979,28 @@ div#preload { display: none; }
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 75%;
+	width: 85%;
+}
+.a-img{
+	width:50px;
+	height:50px;
+	background-position:center !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	border-radius:50%;
+}
+.play i {
+    color: #161f35;
+    font-size: 30px;
+    background: #fff;
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+    z-index:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #161f35;
 }
 
 .snip1192 span {
@@ -1358,7 +1381,13 @@ div#preload { display: none; }
 	align-items: center;
 	flex-wrap: wrap;
 	color: #fff;
-	padding: 100px 0px;
+	padding: 100px 0px 80px;
+}
+.d-text{
+    margin-top: 80px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .blog-head-left {
@@ -2835,7 +2864,7 @@ form textarea {
 #edit-form input::placeholder,
 #edit-form textarea::placeholder {
 	font-size: 15px;
-	color: #444444;
+	color: #d1d1d1;
 }
 
 form label {
