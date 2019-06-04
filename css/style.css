@@ -1428,7 +1428,7 @@ div#preload { display: none; }
 	align-items: center;
 }
 
-#blog .form-wapper label {
+#blog .form-wapper .form-text {
 	font-size: 16px;
 	color: #000;
 	letter-spacing: 1px;

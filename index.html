@@ -18,7 +18,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -2027,7 +2026,7 @@
                                     <figcaption>
                                         <ul>
                                             <li>
-                                                <a href="" target="_blank" class="con-btn">
+                                                <a class="con-btn" href="#" data-toggle="modal" data-target="#contact-modal">
                                                     Contact Now
                                                 </a>
                                             </li>
@@ -2048,29 +2047,38 @@
 
                     <span>Some of our writing pieces that you may like.</span>
 
-                    <div id="subscribe-input" class="form-wapper animated" onclick="window.location.href='https://laravelfactory.com/blog'"
-                        data-animation="fadeInUp" data-animation-delay="600">
+                    <a href="//laravelfactory.com/blog"
+                        id="subscribe-input"
+                        class="form-wapper animated"
+                        data-animation="fadeInUp"
+                        data-animation-delay="600"
+                        target="_blank"
+                    >
                         <label class="form-text" style="text-transform: none;">
                             Read all
                             <button class="form-btn" onclick="subscribe()">
                                 <img src="images/know-more-icon.png" alt="Read all">
                             </button>
                         </label>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="team-right">
                     <ul class="team-list">
-                        <li onclick="window.location.href='https://laravelfactory.com/blog/php-composer-tutorial'">
-                            <img src="images/team-1.png">
-                            <h5>What, why and how of PHP Composer</h5>
-                            <span>Let's demystify the package manager..</span>
+                        <li>
+                            <a href="//laravelfactory.com/blog/php-composer-tutorial" target="_blank">
+                                <img src="images/team-1.png">
+                                <h5>What, why and how of PHP Composer</h5>
+                                <span>Let's demystify the package manager..</span>
+                            </a>
                         </li>
 
-                        <li onclick="window.location.href='blog-details.html'">
-                            <img src="images/team-2.png">
-                            <h5>Guide to Laravel package development</h5>
-                            <span>Step by step guide to package development..</span>
+                        <li>
+                            <a href="//laravelfactory.com/blog/step-by-step-guide-to-laravel-package-development" target="_blank">
+                                <img src="images/team-2.png">
+                                <h5>Guide to Laravel package development</h5>
+                                <span>Step by step guide to package development..</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -2087,12 +2095,12 @@
 
                 <div class="blog-head-right">
                     <div id="subscribe-input" class="form-wapper">
-                        <label class="form-text" onclick="window.location.href='https://github.com/freshbitsweb'">
+                        <a class="form-text" href="//github.com/freshbitsweb" target="_blank">
                             Find More
                             <button class="form-btn">
                                 <img src="images/know-more-icon.png" alt="Find more packages">
                             </button>
-                        </label>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -2113,9 +2121,9 @@
                     <div class="clash-card-down">
                         <div class="stat"><i class="fa fa-github"></i></div>
 
-                        <div class="stat-value" onclick="location.href='https://github.com/freshbitsweb/laratables';">
+                        <a href="//github.com/freshbitsweb/laratables" target="_blank" class="stat-value">
                             Github
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -2133,10 +2141,9 @@
 
                     <div class="clash-card-down">
                         <div class="stat"><i class="fa fa-github"></i></div>
-                        <div class="stat-value"
-                            onclick="location.href='https://github.com/freshbitsweb/laravel-log-enhancer';">
+                        <a href="//github.com/freshbitsweb/laravel-log-enhancer" target="_blank" class="stat-value">
                             Github
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -2160,10 +2167,9 @@
                     <div class="clash-card-down">
                         <div class="stat"><i class="fa fa-github"></i></div>
 
-                        <div class="stat-value"
-                            onclick="location.href='https://github.com/freshbitsweb/laravel-cart-manager';">
+                        <a href="//github.com/freshbitsweb/laravel-cart-manager" target="_blank" class="stat-value">
                             Github
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -2210,7 +2216,7 @@
                     Now, even we are tired of this one way communication and eagerly waiting to see you press `Contact Now` button and drop a quick message.
                 </div>
 
-                <a class="con-btn animated" class="animated" data-animation="fadeInUp" data-animation-delay="600"
+                <a class="con-btn animated" data-animation="fadeInUp" data-animation-delay="600"
                     href="#" data-toggle="modal" data-target="#contact-modal">
                     Contact now
                 </a>
