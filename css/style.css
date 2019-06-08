@@ -2599,31 +2599,7 @@ div#preload { display: none; }
 	cursor:pointer;
 }
 
-.grid-column-two {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	border-radius: 14px;
-}
-
 .h-100 {
-	height: 100%;
-}
-
-.grid-column-two:nth-child(1) {
-	background: url('../images/grid1.jpg') no-repeat;
-}
-
-.grid-column-two:nth-child(2) {}
-
-.grid-column-two .silde-inner {
-	background: #fff;
-	border-radius: 12px;
-}
-
-.grid-column-two .slide-img,
-.grid-column-two .silde-inner {
-	width: 50%;
 	height: 100%;
 }
 
@@ -3724,14 +3700,6 @@ form textarea {
 	}
 	.silde-inner {
 		height: auto;
-	}
-	.grid-column-two:nth-child(1) {
-		background: none;
-	}
-	.grid-column-two .slide-img,
-	.grid-column-two .silde-inner {
-		width: 100%;
-		height: 100%;
 	}
 	.serv-card-inner {
 		margin-bottom: 0;
