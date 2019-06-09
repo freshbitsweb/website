@@ -1575,7 +1575,7 @@ div#preload { display: none; }
 }
 
 .con-text {
-	font-size: 30px;
+	font-size: 17px;
 	color: #141b2d;
 	font-weight: 600;
 }
@@ -2596,7 +2596,6 @@ form textarea {
 		text-align: center;
 	}
 	.con-text {
-		font-size: 24px;
 		margin: 15px 0px;
 	}
 	.blog-head {
