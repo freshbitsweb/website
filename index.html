@@ -2338,7 +2338,7 @@
 
                                                     <li class="col-sm-12">
                                                         <label>Message</label>
-                                                        <textarea name="message" placeholder="Type here.."></textarea>
+                                                        <textarea name="message" placeholder="Type here.." required></textarea>
                                                     </li>
                                                 </ul>
 
@@ -2589,9 +2589,15 @@
                 $.post(
                     contactForm.attr("action"),
                     contactForm.serialize()
-                ).then(function() {
-                    alert("Thank you!");
-                }).catch(function() {
+                ).done(function() {
+                    $("#contact-form")[0].reset();
+
+                    $('.btn-submit').popover({
+                        content: "Thank you. Form submitted successfully. We will get in touch soon.",
+                        placement: "right",
+                        trigger: "focus click"
+                    });
+                }).fail(function() {
                     alert("Not done!");
                 });
             });
