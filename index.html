@@ -1987,18 +1987,8 @@
                                     <figcaption>
                                         <ul>
                                             <li>
-                                                <a href="https://github.com/hirenkeraliya/" target="_blank">
-                                                    <i class="fa fa-github"></i>
-                                                </a>
-                                            </li>
-                                            <li>
                                                 <a href="https://www.linkedin.com/in/hiren-keraliya/" target="_blank">
                                                     <i class="fa fa-linkedin"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.facebook.com/hirenpatelh2" target="_blank">
-                                                    <i class="fa fa-facebook"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -2016,18 +2006,8 @@
                                     <figcaption>
                                         <ul>
                                             <li>
-                                                <a href="https://github.com/rameshtukadiya/" target="_blank">
-                                                    <i class="fa fa-github"></i>
-                                                </a>
-                                            </li>
-                                            <li>
                                                 <a href="https://www.linkedin.com/in/rrtukadiya/" target="_blank">
                                                     <i class="fa fa-linkedin"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.facebook.com/rrtukadiya/" target="_blank">
-                                                    <i class="fa fa-facebook"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -2086,7 +2066,7 @@
                     <ul class="team-list">
                         <li>
                             <a href="//laravelfactory.com/blog/php-composer-tutorial" target="_blank">
-                                <img src="images/why-and-how-of-php-composer.png" alt="Why and how of PHP Composer" width="100">
+                                <img src="images/why-and-how-of-php-composer.png" alt="Why and how of PHP Composer" width="100%">
                                 <h5>What, why and how of PHP Composer</h5>
                                 <span>Let's demystify the package manager...</span>
                             </a>
@@ -2223,26 +2203,8 @@
                 </div>
             </div>
 
-            <div class="img-list">
-                <a href="//scontent.fbom9-1.fna.fbcdn.net/v/t1.0-9/61762097_425799108240754_7917347326241275904_n.jpg?_nc_cat=109&_nc_oc=AQkfe0Umivza79EebKNCXWuizIAGnkHhtqLo_qPzk5CLQWdi8Ldi19EkDYvKh0MJXms&_nc_ht=scontent.fbom9-1.fna&oh=ec6305aa14e38092b93948048d8cd353&oe=5D9DC1EA" target="_blank">
-                    <div style="background:url('images/events/gaurav-makhecha-delhi-laravel-live-event-group.jpg');" class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
-                </a>
-
-                <a href="//scontent.fbom9-1.fna.fbcdn.net/v/t1.0-9/62102778_2328983977384868_7162176291876110336_n.jpg?_nc_cat=102&_nc_oc=AQlAFaZUo8ODDweACTYczHkKvX6t9d0cOvWL0Tw1PHrujSw-OIgugTL-nUGLaUM2_2Y&_nc_ht=scontent.fbom9-1.fna&oh=385493f2d06f14cec0ecd99bc8a6b536&oe=5D8B5799" target="_blank">
-                    <div style="background:url('images/events/speeker-gaurav-makhecha-ahemdabad.JPG');" class="animated" data-animation="fadeInUp" data-animation-delay="1000"></div>
-                </a>
-
-                <a href="//scontent.fbom9-1.fna.fbcdn.net/v/t1.0-9/61964661_2328905114059421_7047051501688061952_n.jpg?_nc_cat=109&_nc_oc=AQnB7djt_CL-cJkpdtQlAkQyfHCksK1WZqRDpjUPFZoX2ZXJTCO5bq7Wj6BsWp3RkrA&_nc_ht=scontent.fbom9-1.fna&oh=733c8f6cff4093394417a19298a6a25b&oe=5D549E8A" target="_blank">
-                    <div style="background:url('images/events/gaurav-makhecha-delhi-laravel-live-event.jpeg');" class="animated" data-animation="fadeInUp" data-animation-delay="400"></div>
-                </a>
-
-                <a href="//scontent.fbom9-1.fna.fbcdn.net/v/t1.0-9/62611828_2328905117392754_2421922446077591552_o.jpg?_nc_cat=101&_nc_oc=AQlC3Jx6TiJ1j6bfXsq2bYdjhERnrACmCXKOdLzIgbNB6wvAvVAwMvoeDnoyRzNjcDI&_nc_ht=scontent.fbom9-1.fna&oh=ede315c373d37cba5c44873e9904c3cb&oe=5D8227B6" target="_blank">
-                    <div style="background:url('images/events/delhi-gaurav-makhecha-with-freek-van-der-herten.jpeg');" class="animated" data-animation="fadeInUp" data-animation-delay="200"></div>
-                </a>
-
-                <a href="//scontent.fbom9-1.fna.fbcdn.net/v/t1.0-9/62045844_2328983990718200_1559655521718370304_n.jpg?_nc_cat=102&_nc_oc=AQks4_AcN037nGLOmjRusJm2mxUgqz9Ll-WDJU2A-yjZ94vY3lcu4DZQ3ADBaWLudXg&_nc_ht=scontent.fbom9-1.fna&oh=8d244c67052e628ce45da6901f4614b2&oe=5D84CD84" target="_blank">
-                    <div style="background:url('images/events/hiren-keraliya-ahemdabad-event.jpeg');" class="animated" data-animation="fadeInUp" data-animation-delay="800"></div>
-                </a>
+            <div class="img-list" id="image-container">
+                <!-- Images loaded dynamically -->
             </div>
 
             <div class="con-list" id="contact">
@@ -2584,6 +2546,32 @@
         });
 
         $(function () {
+            var totalImages = 5;
+            var displayImage = 5;
+            var images = [];
+
+            for (let index = 1; index <= totalImages; index++) {
+                images.push(index);
+            }
+
+            images = images.map(x => ({ x, r: Math.random() }))
+                .sort((a, b) => a.r - b.r)
+                .map(a => a.x)
+                .slice(0, 5)
+            ;
+
+            for (let index = 0; index < images.length; index++) {
+                var imageNumber = images[index];
+
+                $('#image-container').append(`
+                    <a href="/images/events/thumbs/`+imageNumber+`.jpeg" target="_blank" id="events-image-`+index+`">
+                        <div class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
+                    </a>
+                `);
+
+                $('#image-container #events-image-'+index).css('background-image', 'url(images/events/thumbs/' + imageNumber + '.jpeg)')
+            }
+
             $('a.page-scroll').bind('click', function (event) {
                 if ($(window).width < 768) {
                     var $anchor = $(this);
