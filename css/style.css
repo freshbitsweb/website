@@ -2272,25 +2272,25 @@ form label {
     }
 
 	.team-pic1 {
-   background: url(../images/gaurav-makhecha.png) no-repeat;
+   background: url(../images/team/gaurav-makhecha.png) no-repeat;
 }
 .team-pic1:hover {
-   background: url(../images/gaurav-makhecha-funny.png) no-repeat;
+   background: url(../images/team/gaurav-makhecha-funny.png) no-repeat;
 }
 .team-pic2 {
-   background: url(../images/hiren-keraliya.png) no-repeat;
+   background: url(../images/team/hiren-keraliya.png) no-repeat;
 }
 .team-pic2:hover {
-   background: url(../images/hiren-keraliya-funny.png) no-repeat;
+   background: url(../images/team/hiren-keraliya-funny.png) no-repeat;
 }
 .team-pic3 {
-   background: url(../images/ramesh-tukadiya.png) no-repeat;
+   background: url(../images/team/ramesh-tukadiya.png) no-repeat;
 }
 .team-pic3:hover {
-   background: url(../images/ramesh-tukadiya-funny.png) no-repeat;
+   background: url(../images/team/ramesh-tukadiya-funny.png) no-repeat;
 }
 .team-pic4 {
-   background: url(../images/maybe-you.png) no-repeat;
+   background: url(../images/team/maybe-you.png) no-repeat;
 }
 
 
