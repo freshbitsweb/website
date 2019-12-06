@@ -81,6 +81,19 @@ div#preload { display: none; }
 	background-repeat: no-repeat;
 	width: 150px;
 }
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.toggle-menu li a {
+    position: relative;
+}
+
+.toggle-menu li a {
+    position: relative;
+}
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	font-size: 15px;
@@ -230,7 +243,25 @@ div#preload { display: none; }
 	transform: scale(1);
 }
 
-.svg-box svg {}
+.d-white {
+    opacity: 0;
+}
+
+.d-white.animate {
+    opacity: 1;
+}
+
+.d-white .rect {
+    height: 0;
+    transition: height .5s ease-out;
+    overflow: hidden;
+}
+
+.d-white.animate .rect {
+    opacity: 1;
+    height: 500px;
+    transition: max-height .5s ease-in;
+}
 
 .landing-home {
 	color: #fff;
@@ -243,6 +274,12 @@ div#preload { display: none; }
 	font-weight: 500;
 	color: #fff;
 	transition: all .5s ease-in;
+}
+
+.landing-home h6 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: all .5s ease-in;
 }
 
 .landing-home p {
