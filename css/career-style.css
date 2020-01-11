@@ -464,3 +464,7 @@
 .mt-5 {
     margin-top: 5rem;
 }
+.flex-center {
+    justify-content: center !important;
+    align-items: center !important;
+}
