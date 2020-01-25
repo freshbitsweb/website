@@ -142,7 +142,7 @@ $(document).ready(function () {
         // enable looping
         loop: true,
         // sets the minimum display time for each text before it is replaced
-        minDisplayTime: 2000,
+        minDisplayTime: 1000,
         // sets the initial delay before starting the animation
         // (note that depending on the in effect you may need to manually apply
         // visibility: hidden to the element before running this plugin)
@@ -165,8 +165,8 @@ $(document).ready(function () {
         // out animation settings.
         out: {
             effect: 'fadeOut',
-            sequence: false,
-            delay: 5
+            sequence: true,
+            delay: 0
         }
     });
 });
@@ -179,7 +179,6 @@ $('body').scrollspy({
 
 $(function () {
     var totalImages = 7;
-    var displayImage = 5;
     var images = [];
 
     for (let index = 1; index <= totalImages; index++) {
