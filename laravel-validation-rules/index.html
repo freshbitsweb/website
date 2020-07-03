@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laravel Validation Rules Examples</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Piedra&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        .bg-blue {
+            background-color: #234;
+        }
+        .text-blue {
+            color: #234;
+        }
+        .bg-theme-dark {
+            background-color: #234;
+        }
+        .valid-color {
+            background-color: #6fbb81;
+        }
+        .invalid-color {
+            background-color:#cc757d;
+        }
+        .pointer {
+            cursor: pointer;
+        }
+        .title {
+            font-weight: bold;
+            color: #234;
+        }
+        .main-heading {
+            font-family: 'Piedra', cursive;
+        }
+        :not(pre)>code[class*="language-"], pre[class*="language-"] {
+            background: #234;
+        }
+        pre[class*="language-"] {
+            padding: 1.5em;
+            letter-spacing: 1px;
+            border-radius: 1rem;
+        }
+        .form-control {
+            box-shadow: inset 1px 2px 2px #BABECC, inset -1px -2px #BABECC;
+            border-radius: 16rem;
+        }
+        .card {
+            border: unset;
+        }
+        .card-body {
+            border-left: 1px solid rgba(0,0,0,.125);
+            border-right: 1px solid rgba(0,0,0,.125);
+            border-bottom: 1px solid rgba(0,0,0,.125);
+            border-radius: 0 0 1rem 1rem;
+            background-color: #ececec;
+        }
+        .card-header:first-child {
+            border-radius: 1rem 1rem 0 0;
+        }
+        .example-box {
+            margin-bottom: 15px;
+            border-radius: 1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(24, 31, 52, 0.52);
+            background-color: #fff;
+        }
+        .header-link,
+        .header-link:hover {
+            color: #234;
+            display: inline-block;
+            margin-top: 8px;
+        }
+        .select2-container .select2-selection--single {
+            height: calc(1.5em + .75rem + 2px);
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            line-height: 36px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow b {
+            border-width: 9px 9px 0 9px;
+            margin-left: -20px;
+            margin-top: 0;
+        }
+        .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+            border-width: 0 9px 9px 9px;
+        }
+
+        .arrow-wrapper .arrow {
+            cursor: pointer;
+            display: block;
+            -webkit-box-align: start;
+            align-items: flex-start;
+            text-transform: uppercase;
+            position: relative;
+            -webkit-transition: -webkit-transform 0.3s;
+            transition: -webkit-transform 0.3s;
+            transition: transform 0.3s;
+            transition: transform 0.3s, -webkit-transform 0.3s;
+        }
+        .arrow-wrapper .arrow span {
+            display: block;
+            opacity: 0;
+            -webkit-transition: opacity 0.3s 0s;
+            transition: opacity 0.3s 0s;
+        }
+        .arrow-wrapper .arrow:hover span {
+            opacity: 1;
+            -webkit-transition: opacity 0.3s 0.1s;
+            transition: opacity 0.3s 0.1s;
+        }
+        .arrow-wrapper .arrow:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 4px;
+            width: 15px;
+            height: 15px;
+        }
+        .arrow-wrapper.success-arrow .arrow:before {
+            border: solid #589867;
+            border-width: 4px 4px 0 0;
+        }
+        .arrow-wrapper.danger-arrow .arrow:before {
+            border: solid #d82131;
+            border-width: 4px 4px 0 0;
+        }
+        .arrow-wrapper .arrow.arrow--left:before {
+            -webkit-transform: rotate(-135deg);
+                    transform: rotate(-135deg);
+            right: 0;
+            -webkit-transition: right 0.3s 0.2s;
+            transition: right 0.3s 0.2s;
+        }
+        .arrow-wrapper .arrow.arrow--left:hover:before {
+            right: 50%;
+            -webkit-transition: right 0.3s;
+            transition: right 0.3s;
+        }
+        .arrow-wrapper .arrow.right-arrow {
+            text-align: right;
+        }
+        .arrow-wrapper .arrow.right-arrow:before {
+            left: 85%;
+            -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+            -webkit-transition: left 0.3s 0.2s;
+            transition: left 0.3s 0.2s;
+        }
+        .arrow-wrapper .arrow.right-arrow:hover:before {
+            left: 0%;
+            -webkit-transition: left 0.3s;
+            transition: left 0.3s;
+        }
+        .arrow-wrapper .arrow:hover {
+            -webkit-transform: none;
+            transform: none;
+        }
+        .button-text {
+            padding-left: 26px !important;
+        }
+        ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 50px 50px 50px #888;
+        }
+        #container {
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+            width: 250px;
+            height: 250px;
+        }
+
+        .success-label-text {
+            color: #32822e;
+        }
+        .error-label-text {
+            color: #d82131;
+        }
+
+        .alert {
+            font-size: 0.9em;
+            font-weight: 100;
+            letter-spacing: 3px;
+            padding-top: 5px;
+            text-transform: uppercase;
+        }
+
+        #success-box {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            perspective: 40px;
+        }
+
+        #error-box {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            perspective: 40px;
+        }
+
+        .happy-face {
+            position: absolute;
+            width: 30%;
+            height: 30%;
+            background: #32822e;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            top: 16%;
+            left: 32.5%;
+            z-index: 2;
+            animation: bounce 1s ease-in infinite;
+        }
+
+        .sade-face {
+            position: absolute;
+            width: 30%;
+            height: 30%;
+            background: #d82131;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            top: 16%;
+            left: 37.5%;
+            z-index: 2;
+            animation: roll 3s ease-in-out infinite;
+        }
+
+        .eye {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #ffffff;
+            border-radius: 50%;
+            top: 40%;
+            left: 20%;
+        }
+
+        .right {
+            left: 68%;
+        }
+
+        .mouth {
+            position: absolute;
+            top: 52%;
+            left: 43%;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .happy {
+            border: 2px solid;
+            border-color: transparent #fff #fff transparent;
+            transform: rotate(45deg);
+        }
+
+        .sad {
+            top: 49%;
+            border: 2px solid;
+            border-color: #fff transparent transparent #fff;
+            transform: rotate(45deg);
+        }
+
+        .shadow {
+            position: absolute;
+            width: 21%;
+            height: 3%;
+            opacity: .5;
+            background: #777777;
+            left: 37%;
+            top: 45%;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .scale {
+            animation: scale 1s ease-in infinite;
+        }
+
+        .move {
+            animation: move 3s ease-in-out infinite;
+        }
+
+        .message {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 47%;
+        }
+
+        @keyframes bounce {
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes scale {
+            50% {
+                transform: scale(0.9);
+            }
+        }
+        @keyframes roll {
+            0% {
+                transform: rotate(0deg);
+                left: 25%;
+            }
+            50% {
+                left: 60%;
+                transform: rotate(168deg);
+            }
+            100% {
+                transform: rotate(0deg);
+                left: 25%;
+            }
+        }
+        @keyframes move {
+            0% {
+                left: 25%;
+            }
+            50% {
+                left: 60%;
+            }
+            100% {
+                left: 25%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-blue">
+    <h1 class="display-5 text-center text-white main-heading">
+        Laravel Validation Rules Examples
+    </h1>
+
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <select name="rules" class="form-control" id="rules-dropdown">
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-6 text-right">
+                        <a href="https://laravel.com/docs/validation#rule-accepted"
+                            target="_blank"
+                            class="header-link"
+                        >
+                            Open in Laravel Docs
+                            <img src="images/link.png" width="15px" height="15px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body bg-white">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3">
+                            <div class="title mb-1">Description:</div>
+                            <div class="description-value"></div>
+
+                            <div class="title mt-3">Accepted Value:</div>
+                            <div class="accepted-value"></div>
+                        </div>
+
+                        <div class="card mb-3 valid-section">
+                            <h5 class="card-header mb-0 valid-color pointer text-blue"
+                                data-toggle="collapse"
+                                data-target="#valid-input-values"
+                            >
+                                Valid Input Values
+                            </h5>
+
+                            <div id="valid-input-values" class="collapse show">
+                                <div class="card-body">
+                                    <div id="valid-input-values-content"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card invalid-section">
+                            <h5 class="card-header invalid-color pointer mb-0 text-blue"
+                                data-toggle="collapse"
+                                data-target="#invalid-input-values"
+                            >
+                                Invalid Input Values
+                            </h5>
+
+                            <div id="invalid-input-values" class="collapse show">
+                                <div class="card-body">
+                                    <div class="list-group" id="invalid-input-values-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3">
+                            <div class="title">
+                                Rules Specification:
+                                <button type="button"
+                                    onclick="copyTheCode('.rules-specification', '.rule-hover-title-change')"
+                                    class="btn text-secondary py-0 pr-0 pl-2 rule-hover-title-change display-copy-message"
+                                    data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="Copy to Clipboard"
+                                >
+                                    <img src="images/copy-content.png" alt="Copy to Clipboard">
+                                </button>
+                            </div>
+
+                            <pre><code class="language-php rules-specification"></code></pre>
+
+                            <div class="mt-3">
+                                <div class="title">
+                                    HTML Specification:
+                                    <button
+                                        class="btn text-secondary py-0 pr-0 pl-2 html-hover-title-change display-copy-message"
+                                        onclick="copyTheCode('.html-code', '.html-hover-title-change')"
+                                        data-toggle="tooltip"
+                                        data-placement="top"
+                                        title="Copy to Clipboard"
+                                    >
+                                        <img src="images/copy-content.png" alt="Copy to Clipboard">
+                                    </button>
+                                </div>
+
+                                <pre><code class="language-html html-code"></code></pre>
+                            </div>
+                        </div>
+
+                        <div class="card demo-section">
+                            <div class="card-header bg-theme-dark text-white">
+                                <h5 class="mb-0">Demo</h5>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="form-group html-input">
+                                    <input type="text"
+                                        class="form-control"
+                                        placeholder="Enter the Accept"
+                                        oninput="validatedAcceptedRule(this)"
+                                    >
+                                </div>
+
+                                <div class="h4 d-none" id="valid-value-display">
+                                    <div id="container">
+                                        <div id="success-box">
+                                            <div class="happy-face">
+                                                <div class="eye"></div>
+                                                <div class="eye right"></div>
+                                                <div class="mouth happy"></div>
+                                            </div>
+
+                                            <div class="shadow scale"></div>
+
+                                            <div class="message">
+                                                <h1 class="success-label-text alert">Valid!</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-none h4" id="invalid-value-display">
+                                    <div id="container">
+                                        <div id="error-box">
+                                            <div class="sade-face">
+                                                <div class="eye"></div>
+                                                <div class="eye right"></div>
+                                                <div class="mouth sad"></div>
+                                            </div>
+
+                                            <div class="shadow move"></div>
+
+                                            <div class="message">
+                                                <h1 class="error-label-text alert">Invalid!</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center">
+            <a href="https://www.freshbits.in" target="_blank">
+                <img src="/images/logo_white.svg" width="120px" height="120px">
+            </a>
+        </div>
+    </footer>
+
+    <template id="valid-example">
+        <div class="example-box d-flex justify-content-between align-items-center">
+            <span class="valid-value"></span>
+
+            <button class="btn btn-link text-success">
+                <div class="arrow-wrapper success-arrow">
+                    <div class="arrow right-arrow">
+                        <span class="button-text">Click To Fill</span>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </template>
+
+    <template id="invalid-example">
+        <div class="example-box d-flex justify-content-between align-items-center">
+            <span class="invalid-value"></span>
+
+            <button class="btn btn-link text-danger">
+                <div class="arrow-wrapper danger-arrow">
+                    <div class="arrow right-arrow">
+                        <span class="button-text">Click To Fill</span>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </template>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script src="js/prism.js"></script>
+
+    <script src="js/rules_display.js"></script>
+    <script src="js/date_calculation.js"></script>
+    <script src="js/rules_database.js"></script>
+    <script src="js/validate_method.js"></script>
+    <script>
+        $('.display-copy-message').tooltip()
+
+        for (const key in rules) {
+            var selectedText = '';
+            if (key == 0) {
+                selectedText = 'selected';
+                displayValidationRulesFor(rules[key].key);
+            }
+
+            var optionHTML = '<option value="' + rules[key].key + '" '+ selectedText +'>' + rules[key].title + '</option>'
+            $("#rules-dropdown").append(optionHTML);
+        }
+
+        function copyTheCode(element, className) {
+            var $temp = $("<textarea>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+
+            $(className).attr('data-original-title', 'Copied').tooltip('show');
+            $(className).attr('data-original-title', 'Copy to Clipboard');
+        }
+    </script>
+</body>
+</html>
