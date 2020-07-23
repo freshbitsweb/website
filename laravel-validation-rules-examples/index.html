@@ -10,7 +10,7 @@
 
     gtag('config', 'UA-36459796-2');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -100,7 +100,6 @@
         .header-link:hover {
             color: #234;
             display: inline-block;
-            margin-top: 8px;
         }
         .select2-container .select2-selection--single {
             height: calc(1.5em + .75rem + 2px);
@@ -383,7 +382,13 @@
                         </select>
                     </div>
 
-                    <div class="col-12 col-md-6 text-right">
+                    <div class="col-12 col-md-3">
+                        <button type="button" class="btn btn-secondary header-link" data-toggle="modal" data-target="#how-to-use">
+                            How to Use
+                        </button>
+                    </div>
+
+                    <div class="col-12 col-md-3 text-right" style="margin-top: 7px">
                         <a href="https://laravel.com/docs/validation#rule-accepted"
                             target="_blank"
                             class="header-link"
@@ -573,6 +578,43 @@
             </button>
         </div>
     </template>
+
+    <div class="modal fade" id="how-to-use" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">How to Use</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Laravel validation rules cover a wide variety. Testing which rule works for your specific
+                        requirements can take some
+                        time. This small tool can help you quickly decide which validation rules you should use and
+                        which values are valid/invalid.
+                    </p>
+
+                    <ul>
+                        <li>Just select the rule from the dropdown @ top left</li>
+                        <li>Play with the Valid and Invalid inputs to check the output in the Demo section @ bottom
+                            right
+                        </li>
+                        <li>Test more in the demo section as per your needs</li>
+                        <li>Copy the PHP (validation) and HTML (inputs) code for your app.</li>
+                    </ul>
+
+                    <p>All done!</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
