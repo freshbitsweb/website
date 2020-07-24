@@ -856,7 +856,7 @@ div#preload {
 	width: 65%;
 }
 
-.nav-tabs>li>a {
+.flex-column>a {
 	line-height: 1.42857143;
 	border: none;
 	border-radius: 5px;
@@ -880,9 +880,10 @@ div#preload {
 	margin: 0px;
 }
 
-.tabs-left>li.active>a,
-.tabs-left>li.active>a:hover,
-.tabs-left>li.active>a:focus {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.nav-pills>.nav-link:hover,
+.nav-pills>.nav-link:focus {
 	background: #16214e;
 	border: none;
 	color: #fff;
@@ -2587,10 +2588,6 @@ form label {
 		margin-top: 40px;
 	}
 
-	.portfolio-inner {
-		margin-bottom: 40px;
-	}
-
 	.search-tag {
 		padding: 50px 0px;
 	}
@@ -2958,10 +2955,6 @@ form label {
 		width: 100%;
 		text-align: center;
 		margin-bottom: 10px;
-	}
-
-	.portfolio-inner {
-		margin-bottom: 20px;
 	}
 
 	.port-tab-left,
