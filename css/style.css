@@ -3155,3 +3155,13 @@ form label {
 .nav-tabs .nav-item {
 	margin-bottom: 10px;
 }
+
+.navbar-collapse {
+	flex-grow: unset;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1199px;
+	}
+}
