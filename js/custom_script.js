@@ -86,8 +86,8 @@ $('.slick', '.vertical-slider').slick({
     slidesToScroll: 1,
     speed: 1000,
     centerMode: true,
-    prevArrow: "<button class='why-slider-left'><img src='images/left-arrow.png'></button> ",
-    nextArrow: "<button class='why-slider-right'><img src='images/right-arrow.png'></button> "
+    prevArrow: "<button class='why-slider-left'><img src='images/left-arrow.png' alt='left arrow'></button> ",
+    nextArrow: "<button class='why-slider-right'><img src='images/right-arrow.png' alt='right arrow'></button> "
 });
 
 setTimeout(function () {
