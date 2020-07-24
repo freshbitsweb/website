@@ -2873,17 +2873,17 @@ form label {
 		max-width: 100%;
 	}
 
-	.navbar-toggle .icon-bar.i1 {
+	.navbar-toggle {
 		display: block;
 		width: 19px;
 	}
 
-	.navbar-toggle .icon-bar.i2 {
+	.navbar-toggle {
 		display: block;
 		width: 22px;
 	}
 
-	.navbar-toggle .icon-bar.i3 {
+	.navbar-toggle {
 		display: block;
 		width: 17px;
 	}
