@@ -110,6 +110,10 @@ setTimeout(function () {
     $(".svg-box").addClass("animate");
 }, 1000);
 
+setTimeout(function () {
+    $(".svg-box.menusvg").addClass("animate2");
+}, 1000);
+
 jQuery(function ($) {
     var doAnimations = function () {
         var offset = $(window).scrollTop() + $(window).height(),
