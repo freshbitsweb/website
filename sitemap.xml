@@ -13,13 +13,23 @@
 </url>
 <url>
   <loc>https://www.freshbits.in/careers</loc>
-  <lastmod>2020-01-18T12:22:42+00:00</lastmod>
+  <lastmod>2020-10-17T06:22:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.freshbits.in/careers/php-web-developer</loc>
   <lastmod>2020-01-18T12:22:42+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.freshbits.in/careers/laravel-vuejs-developer</loc>
+  <lastmod>2020-10-17T06:22:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.freshbits.in/submission-portal-casestudy</loc>
+  <lastmod>2020-10-17T06:22:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
