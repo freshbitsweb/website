@@ -435,6 +435,48 @@ function validatedPresentRule(element) {
     validateBlankInputValue(element);
 }
 
+function validatedProhibitedRule() {
+    var firstInputValue = $('input:first-child').val();
+    var secondInputValue = $('input:first-child').next().next().val();
+
+    if (firstInputValue == 'Hello world' && secondInputValue == '') {
+        $("#invalid-value-display").addClass('d-none');
+        $("#valid-value-display").removeClass('d-none');
+        return;
+    }
+
+    $("#valid-value-display").addClass('d-none');
+    $("#invalid-value-display").removeClass('d-none');
+}
+
+function validatedProhibitedIfRule() {
+    var firstInputValue = $('input:first-child').val();
+    var secondInputValue = $('input:first-child').next().next().val();
+
+    if (firstInputValue == 'true' && secondInputValue == 'true') {
+        $("#valid-value-display").addClass('d-none');
+        $("#invalid-value-display").removeClass('d-none');
+        return;
+    }
+
+    $("#invalid-value-display").addClass('d-none');
+    $("#valid-value-display").removeClass('d-none');
+}
+
+function validatedProhibitedUnlessRule() {
+    var firstInputValue = $('input:first-child').val();
+    var secondInputValue = $('input:first-child').next().next().val();
+
+    if (firstInputValue == 'true' && secondInputValue == '') {
+        $("#invalid-value-display").addClass('d-none');
+        $("#valid-value-display").removeClass('d-none');
+        return;
+    }
+
+    $("#valid-value-display").addClass('d-none');
+    $("#invalid-value-display").removeClass('d-none');
+}
+
 function validatedRegexRule(element) {
     validateRegexPattern(element, /(^([a-zA-Z0-9]+)(d+)?$)/u);
 }
