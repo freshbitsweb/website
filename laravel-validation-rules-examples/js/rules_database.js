@@ -1050,6 +1050,63 @@ var rules = [
     },
 
     {
+        key: 'prohibited',
+        title: 'Prohibited',
+        description: "The field under validation must be empty or not present.",
+        accepted_value: `N/A`,
+        rule_spec: `'name' => 'required|max:255'\n\t` + `'key' => 'prohibited',`,
+        valid: [
+            "Hello world, ''",
+        ],
+        invalid: [
+            "Hello world, Random-key",
+        ],
+        htmlCode: `&lt;input type="text" name="name" class="form-control" placeholder="Enter name"&gt;\n<br>` +
+            `&lt;input type="text" name="random_key" class="form-control" placeholder="Enter the random key"&gt;`,
+        exampleValueRender: 'updateValueToSingleTextBox',
+        validateMethodName: 'validatedProhibitedRule',
+        url: 'https://laravel.com/docs/validation#rule-prohibited'
+    },
+
+    {
+        key: 'prohibited_if',
+        title: 'Prohibited If',
+        description: "The field under validation must be empty or not present if the anotherfield field is equal to any value.",
+        accepted_value: `N/A`,
+        rule_spec: `'is_minor' => 'boolean'\n\t` + `'condition' => 'prohibited_if:is_minor,true',`,
+        valid: [
+            "'false', ''",
+        ],
+        invalid: [
+            "'true', 'true'",
+        ],
+        htmlCode: `&lt;input type="text" name="is_minor" class="form-control" placeholder="Is minor"&gt;\n<br>` +
+            `&lt;input type="text" name="condition" class="form-control" placeholder="Condition accepted"&gt;`,
+        exampleValueRender: 'updateValueToSingleTextBox',
+        validateMethodName: 'validatedProhibitedIfRule',
+        url: 'https://laravel.com/docs/validation#rule-prohibited-if'
+    },
+
+    {
+        key: 'prohibited_unless',
+        title: 'Prohibited Unless',
+        description: "The field under validation must be empty or not present unless the anotherfield field is equal to any value.",
+        accepted_value: `N/A`,
+        rule_spec: `'is_deceased' => 'boolean'\n\t` + `'date_of_death' => 'prohibited_unless:is_deceased,true',`,
+        valid: [
+            "'true', ''",
+        ],
+        invalid: [
+            "'false', '2021-03-09'",
+        ],
+        htmlCode: `&lt;input type="text" name="is_deceased" class="form-control" placeholder="Is minor"&gt;\n<br>` +
+            `&lt;input type="text" name="date_of_death" class="form-control" placeholder="Condition accepted"&gt;`,
+        exampleValueRender: 'updateValueToSingleTextBox',
+        validateMethodName: 'validatedProhibitedUnlessRule',
+        url: 'https://laravel.com/docs/validation#rule-prohibited-unless'
+    },
+
+    {
         key: 'regex',
         title: 'Regex',
         description: `The field under validation must match the given regular expression. Internally, this rule uses the PHP <span class="text-danger">preg_match</span> function.The pattern specified should obey the same formatting required by <span class="text-danger">preg_match</span> and thus also include valid delimiters`,
