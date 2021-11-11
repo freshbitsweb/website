@@ -182,7 +182,7 @@ $('body').scrollspy({
 });
 
 $(function () {
-    var totalImages = 7;
+    var totalImages = 15;
     var images = [];
 
     for (let index = 1; index <= totalImages; index++) {
@@ -207,7 +207,7 @@ $(function () {
                 `);
 
         $('#image-container #events-image-' + index).css('background-image',
-            'url(images/events/thumbs/' + imageNumber + '.jpeg)')
+            'url(/images/events/thumbs/' + imageNumber + '.jpeg)')
     }
 
     $('a.page-scroll').bind('click', function (event) {
