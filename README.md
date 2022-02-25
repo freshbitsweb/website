@@ -17,4 +17,6 @@
 8) Image name must be relative to the content and follow the param case.
 
 9) Make sure image and video must be optimized from `tiny png or tiny jpg`
-    Note: Please optimize only single time other wise generated photo quality will be bad.
+    Note: 1. Please optimize only single time other wise generated photo quality will be bad.
+
+10) Link to optimize the video `https://www.media.io/video-compressor.html`.
