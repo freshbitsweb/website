@@ -1224,14 +1224,8 @@ div#preload { display: none; }
 	flex-wrap: wrap;
 }
 
-.team-left {
-	width: calc(100% - 68%);
-	display: flex;
-	flex-direction: column;
-}
-
 .team-right {
-	width: 65%;
+	width: 100%;
 }
 
 .team-right ul {
@@ -1280,6 +1274,10 @@ div#preload { display: none; }
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-align: left;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 }
 
 .team-member figcaption p {
@@ -1374,15 +1372,6 @@ div#preload { display: none; }
 	color: #bd56a8;
 	font-weight: 500;
 	margin: 0;
-}
-
-.team-left span {
-	font-size: 30px;
-	color: #141b2d;
-	font-weight: 500;
-	max-width: 420px;
-	line-height: 40px;
-	margin: 30px 0 30px;
 }
 
  .form-wapper {
@@ -2467,22 +2456,13 @@ form textarea {
 	.blog-head {
 		padding: 50px 0px;
 	}
-	.team-left,
+
 	.team-right {
 		width: 100%;
 		margin-bottom: 10px;
 	}
-	.team-left {
-		text-align: center;
-	}
 	.team-inner {
 		padding: 40px 0px 0px;
-	}
-	.team-left span {
-		font-size: 24px;
-		max-width: 100%;
-		line-height: 30px;
-		margin: 10px 0px;
 	}
 	 .form-wapper {
 		margin: 0 auto;
@@ -3070,4 +3050,21 @@ form textarea {
 	    margin-bottom: 20px;
 	    margin-top: 20px;
 	}
+}
+
+.blog-header {
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.blog-cover-image-div img {
+	width: 100%;
+	height: 13vw;
+	object-fit: cover;
+}
+
+.blog-title-div {
+	height: 120px;
 }
