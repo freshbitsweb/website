@@ -190,9 +190,9 @@ $(function () {
     }
 
     images = images.map(x => ({
-        x,
-        r: Math.random()
-    }))
+            x,
+            r: Math.random()
+        }))
         .sort((a, b) => a.r - b.r)
         .map(a => a.x)
         .slice(0, 5);
@@ -255,3 +255,30 @@ $(function () {
         });
     });
 });
+
+axios.post(
+    '/.netlify/functions/fetch_blogs').then((result) => {
+        let blogUl = document.getElementById('blog-ul');
+        const articles = result.data.data.user.publication.posts;
+
+        articles.forEach((element, index) => {
+            if (index < 3) {
+                let html = `
+                    <li>
+                        <a href="https://blog.freshbits.in/`+ element.slug + `" target="_blank">
+                            <div class="blog-cover-image-div">
+                                <img src="`+ element.coverImage + `">
+                            </div>
+
+                            <div class="blog-title-div">
+                                <h5>`+ element.title +`</h5>
+                                <span>`+ element.brief + `</span>
+                            </div>
+                        </a>
+                    </li>
+                `;
+                blogUl.innerHTML += html;
+            }
+        });
+    })
+;
