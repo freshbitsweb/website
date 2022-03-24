@@ -260,24 +260,17 @@ axios.post(
     '/.netlify/functions/fetch_blogs').then((result) => {
         let blogUl = document.getElementById('blog-ul');
         const articles = result.data.data.user.publication.posts;
+        const blogDisplayTemplate = document.getElementById('blog-display');
 
         articles.forEach((element, index) => {
-            if (index < 3) {
-                let html = `
-                    <li>
-                        <a href="https://blog.freshbits.in/`+ element.slug + `" target="_blank">
-                            <div class="blog-cover-image-div">
-                                <img src="`+ element.coverImage + `">
-                            </div>
-
-                            <div class="blog-title-div">
-                                <h5>`+ element.title +`</h5>
-                                <span>`+ element.brief + `</span>
-                            </div>
-                        </a>
-                    </li>
-                `;
-                blogUl.innerHTML += html;
+            const blogDisplayCard = blogDisplayTemplate.content.cloneNode(true);
+            if (index < 2) {
+                blogDisplayCard.querySelector('.blog-link').href = "https://blog.freshbits.in/" + element.slug;
+                blogDisplayCard.querySelector('.blog-cover-image').src = element.coverImage;
+                blogDisplayCard.querySelector('.blog-cover-image').alt = element.slug;
+                blogDisplayCard.querySelector('.title-of-blog').innerText = element.title;
+                blogDisplayCard.querySelector('.body-of-blog').innerText = element.brief;
+                blogUl.append(blogDisplayCard);
             }
         });
     })

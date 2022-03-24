@@ -1,7 +1,7 @@
 const axios = require("axios");
 exports.handler = async function (event, context) {
     try {
-        var data = {
+        const data = {
             query: `
                 query GetUserArticles {
                     user(username: "freshbitsweb") {
@@ -18,7 +18,7 @@ exports.handler = async function (event, context) {
         `,
         };
 
-        var config = {
+        const config = {
             method: 'post',
             url: 'https://api.hashnode.com/',
             headers: {
