@@ -284,8 +284,13 @@
             padding: 20px 0px
         }
 
+        .search-tag li {
+            margin-left: 12px;
+        }
+
         .search-tag li a {
             cursor: pointer;
+            height: 34px;
         }
 
         .blog-home {
@@ -295,6 +300,10 @@
 
         .filter-buttons {
             text-align: center;
+        }
+
+        .active-filter-button {
+            border: 2px solid;
         }
     </style>
 </head>
@@ -402,27 +411,27 @@
         </div>
 
         <div class="filter-buttons">
-            <ul class="search-tag">
+            <ul class="search-tag" id="filter-ul">
                 <li>
-                    <a class="orange" onclick="displayFilterSelection()">
+                    <a class="btn orange active-filter-button" onclick="displayFilterSelection()">
                         All
                     </a>
                 </li>
 
                 <li>
-                    <a class="green" onclick="displayFilterSelection('talk')">
+                    <a class="btn green" onclick="displayFilterSelection('talk')">
                         Talks
                     </a>
                 </li>
 
                 <li>
-                    <a class="blue" onclick="displayFilterSelection('workshop')">
+                    <a class="btn blue" onclick="displayFilterSelection('workshop')">
                         Workshops
                     </a>
                 </li>
 
                 <li>
-                    <a class="pink" onclick="displayFilterSelection('fun')">
+                    <a class="btn pink" onclick="displayFilterSelection('fun')">
                         Fun
                     </a>
                 </li>
@@ -508,5 +517,17 @@
     <script type="text/javascript" src="//buttons.github.io/buttons.js" async defer></script>
     <script type="text/javascript" src="js/data.js"></script>
     <script type="text/javascript" src="js/custom_script.js"></script>
+    <script>
+        let filterUl = document.getElementById("filter-ul");
+        let buttonLi = filterUl.getElementsByClassName("btn");
+
+        for (let i = 0; i < buttonLi.length; i++) {
+            buttonLi[i].addEventListener("click", function() {
+            let current = document.getElementsByClassName("active-filter-button");
+            current[0].className = current[0].className.replace(" active-filter-button", "");
+            this.className += " active-filter-button";
+        });
+        }
+    </script>
 </body>
 </html>
