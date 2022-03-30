@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
@@ -10,8 +11,10 @@
     <meta name="twitter:creator" content="@gauravmakhecha">
     <meta property="og:url" content="https://www.freshbits.in/diaries">
     <meta property="og:title" content="Freshbits Diaries | Memories | Timeline">
-    <meta property="og:description" content="Team memories through the ups and downs. And we are proud of these moments!">
-    <meta property="og:image" content="https://www.freshbits.in/images/meta/freshbits-web-solutions-web-apps-backend-systems-laravel-vue-js.png">
+    <meta property="og:description"
+        content="Team memories through the ups and downs. And we are proud of these moments!">
+    <meta property="og:image"
+        content="https://www.freshbits.in/images/meta/freshbits-web-solutions-web-apps-backend-systems-laravel-vue-js.png">
 
     <meta name="title" content="Freshbits Diaries | Memories | Timeline">
     <meta name="description" content="Team memories through the ups and downs. And we are proud of these moments!">
@@ -218,7 +221,8 @@
             transform: rotate(45deg);
         }
 
-        .freshbits-diaries p, .freshbits-diaries h4 {
+        .freshbits-diaries p,
+        .freshbits-diaries h4 {
             color: white;
         }
 
@@ -413,25 +417,28 @@
         <div class="filter-buttons">
             <ul class="search-tag" id="filter-ul">
                 <li>
-                    <a class="btn orange active-filter-button" onclick="displayFilterSelection()">
+                    <a class="btn filter-button orange active-filter-button"
+                        onclick="displayActivityFor('all', this)"
+                        id="all-filter-button"
+                    >
                         All
                     </a>
                 </li>
 
                 <li>
-                    <a class="btn green" onclick="displayFilterSelection('talk')">
+                    <a class="btn filter-button green" onclick="displayActivityFor('talk', this)">
                         Talks
                     </a>
                 </li>
 
                 <li>
-                    <a class="btn blue" onclick="displayFilterSelection('workshop')">
+                    <a class="btn filter-button blue" onclick="displayActivityFor('workshop', this)">
                         Workshops
                     </a>
                 </li>
 
                 <li>
-                    <a class="btn pink" onclick="displayFilterSelection('fun')">
+                    <a class="btn filter-button pink" onclick="displayActivityFor('fun', this)">
                         Fun
                     </a>
                 </li>
@@ -504,30 +511,25 @@
     </section>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>
     <!-- Menu link click slide -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
+    </script>
     <script type="text/javascript" src="js/appear.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/267285/jquery.lettering.js"></script>
-    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/267285/jquery.textillate.js"></script>
+    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/267285/jquery.lettering.js">
+    </script>
+    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/267285/jquery.textillate.js">
+    </script>
     <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.js">
+    </script>
     <script type="text/javascript" src="js/lity.js"></script>
     <script type="text/javascript" src="//buttons.github.io/buttons.js" async defer></script>
-    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/diaries-data.js"></script>
     <script type="text/javascript" src="js/custom_script.js"></script>
-    <script>
-        let filterUl = document.getElementById("filter-ul");
-        let buttonLi = filterUl.getElementsByClassName("btn");
-
-        for (let i = 0; i < buttonLi.length; i++) {
-            buttonLi[i].addEventListener("click", function() {
-            let current = document.getElementsByClassName("active-filter-button");
-            current[0].className = current[0].className.replace(" active-filter-button", "");
-            this.className += " active-filter-button";
-        });
-        }
-    </script>
 </body>
+
 </html>
