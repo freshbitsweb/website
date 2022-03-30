@@ -12,10 +12,10 @@ exports.handler = async function (event, context) {
                                 slug
                                 coverImage
                             }
+                        }
                     }
                 }
-            }
-        `,
+            `,
         };
 
         const config = {
