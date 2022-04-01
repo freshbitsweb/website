@@ -256,22 +256,57 @@ $(function () {
     });
 });
 
-axios.post(
-    '/.netlify/functions/fetch_blogs').then((result) => {
-        let blogUl = document.getElementById('blog-ul');
-        const articles = result.data.data.user.publication.posts;
-        const blogDisplayTemplate = document.getElementById('blog-item');
+axios.post('/.netlify/functions/fetch_blogs').then((result) => {
+    let blogUl = document.getElementById('blog-ul');
+    const articles = result.data.data.user.publication.posts;
+    const blogDisplayTemplate = document.getElementById('blog-item');
 
-        articles.forEach((element, index) => {
-            const blogDisplayCard = blogDisplayTemplate.content.cloneNode(true);
-            if (index < 2) {
-                blogDisplayCard.querySelector('.blog-link').href = "https://blog.freshbits.in/" + element.slug;
-                blogDisplayCard.querySelector('.blog-cover-image').src = element.coverImage;
-                blogDisplayCard.querySelector('.blog-cover-image').alt = element.slug;
-                blogDisplayCard.querySelector('.title-of-blog').innerText = element.title;
-                blogDisplayCard.querySelector('.body-of-blog').innerText = element.brief;
-                blogUl.append(blogDisplayCard);
-            }
-        });
-    })
-;
+    articles.forEach((element, index) => {
+        const blogDisplayCard = blogDisplayTemplate.content.cloneNode(true);
+        if (index < 2) {
+            blogDisplayCard.querySelector('.blog-link').href = "https://blog.freshbits.in/" + element.slug;
+            blogDisplayCard.querySelector('.blog-cover-image').src = element.coverImage;
+            blogDisplayCard.querySelector('.blog-cover-image').alt = element.slug;
+            blogDisplayCard.querySelector('.title-of-blog').innerText = element.title;
+            blogDisplayCard.querySelector('.body-of-blog').innerText = element.brief;
+            blogUl.append(blogDisplayCard);
+        }
+    });
+});
+
+let templateDairy = document.getElementById('dairy-card');
+let freshbitsDairiesDiv = document.getElementById('freshbits-dairies-div');
+diariesData.reverse();
+
+function displayActivityFor(filterName = 'all', currentElement) {
+    let currentActiveClass = document.getElementsByClassName("active-filter-button");
+    currentActiveClass[0].className = currentActiveClass[0].className.replace(" active-filter-button", "");
+    currentElement.className += " active-filter-button";
+
+    freshbitsDairiesDiv.innerHTML = "";
+    diariesData.forEach((dairyData) => {
+        if (dairyData.tag === filterName || filterName === 'all') {
+            let dairiesCard = templateDairy.content.cloneNode(true);
+            let linkAndImageTemplate = dairiesCard.querySelector('#images-and-link');
+            let imageDiv = dairiesCard.querySelector('#add-images');
+
+            dairiesCard.querySelector('.freshbits-diaries-row').id = dairyData.id;
+            dairiesCard.querySelector('.event-date').innerHTML = dairyData.date;
+            dairiesCard.querySelector('.event-date').href = "#" + dairyData.id;
+            dairiesCard.querySelector('.card-title').innerHTML = dairyData.title;
+            dairiesCard.querySelector('.card-topic').innerHTML = dairyData.topic;
+            freshbitsDairiesDiv.append(dairiesCard);
+
+            dairyData.images.forEach((image) => {
+                let imagesAndLinkDiv = linkAndImageTemplate.content.cloneNode(true);
+                imagesAndLinkDiv.querySelector('.image').href = image.media;
+                imagesAndLinkDiv.querySelector('.thumbnail-image').src = image.thumbnail;
+                imagesAndLinkDiv.querySelector('.thumbnail-image').alt = dairyData.title;
+                imageDiv.append(imagesAndLinkDiv);
+            });
+        }
+    });
+}
+
+const allFilterButton = document.getElementById('all-filter-button');
+displayActivityFor('all', allFilterButton);
