@@ -260,7 +260,7 @@ axios.post(
     '/.netlify/functions/fetch_blogs').then((result) => {
         let blogUl = document.getElementById('blog-ul');
         const articles = result.data.data.user.publication.posts;
-        const blogDisplayTemplate = document.getElementById('blog-display');
+        const blogDisplayTemplate = document.getElementById('blog-item');
 
         articles.forEach((element, index) => {
             const blogDisplayCard = blogDisplayTemplate.content.cloneNode(true);
