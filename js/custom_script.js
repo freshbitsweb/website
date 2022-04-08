@@ -266,7 +266,7 @@ axios.post('/.netlify/functions/fetch_blogs').then((result) => {
         if (index < 2) {
             blogDisplayCard.querySelector('.blog-link').href = "https://blog.freshbits.in/" + element.slug;
             blogDisplayCard.querySelector('.blog-cover-image').src = element.coverImage;
-            blogDisplayCard.querySelector('.blog-cover-image').alt = element.slug;
+            blogDisplayCard.querySelector('.blog-cover-image').alt = element.title;
             blogDisplayCard.querySelector('.title-of-blog').innerText = element.title;
             blogDisplayCard.querySelector('.body-of-blog').innerText = element.brief;
             blogUl.append(blogDisplayCard);
