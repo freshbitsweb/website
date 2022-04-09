@@ -20,3 +20,9 @@
     Note: 1. Please optimize only single time other wise generated photo quality will be bad.
 
 10) Link to optimize the video `https://www.media.io/video-compressor.html`.
+
+# Blog articles
+
+- We are fetching blog articles from the [Hashnode API](https://api.hashnode.com/) which is open for all.
+- The ajax request is made on the page load to the Netlify function in the `functions/fetch_blogs.js` file.
+- Last two blog articles are displayed on the home page.
