@@ -144,7 +144,7 @@
                     </li>
 
                     <li>
-                        <a href="https://blog.freshbits.in/" target="_blank">Blog</a>
+                        <a href="#blog-1" class="page-scroll">Blog</a>
                     </li>
 
                     <li>
@@ -2040,6 +2040,48 @@
                     </div>
                 </div>
             </div>
+
+            <div class="team-inner" id="blog-1">
+                <div class="team-left">
+                    <h2 class="heading-team">Blog</h2>
+
+                    <span>Some of our writing pieces that you may like.</span>
+
+                    <a href="https://blog.freshbits.in/"
+                        id="subscribe-input"
+                        class="form-wapper animated"
+                        data-animation="fadeInUp"
+                        data-animation-delay="600"
+                        target="_blank"
+                    >
+                        <label class="form-text" style="text-transform: none;">
+                            Read all
+                            <button class="form-btn">
+                                <img src="images/know-more-icon.png" alt="Read all">
+                            </button>
+                        </label>
+                    </a>
+                </div>
+
+                <div class="team-right">
+                    <ul class="team-list" id="blog-ul">
+                        <template id="blog-item">
+                            <li>
+                                <a target="_blank" class="blog-link">
+                                    <div class="blog-cover-image-div">
+                                        <img class="blog-cover-image">
+                                    </div>
+
+                                    <div class="blog-title-div">
+                                        <h5 class="title-of-blog"></h5>
+                                        <p class="body-of-blog truncate"></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -2339,6 +2381,7 @@
     <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.js">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="js/lity.js"></script>
     <script type="text/javascript" src="//buttons.github.io/buttons.js" async defer></script>
     <script type="text/javascript" src="js/custom_script.js"></script>
