@@ -640,4 +640,25 @@ var diariesData = [
         ],
         "tag": "workshop"
     },
+    {
+        "title": "Talk",
+        "topic": "Topic: Career in Programming @ ITI Rajkot",
+        "date": "8th April 2022",
+        "id": "career-in-programming-iti-rajkot-talk-april-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/gaurav-iti-rajkot-talk-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-iti-rajkot-talk-1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gaurav-iti-rajkot-talk-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-iti-rajkot-talk-2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gaurav-iti-rajkot-talk-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-iti-rajkot-talk-3.jpg"
+            },
+        ],
+        "tag": "talk"
+    },
 ];
