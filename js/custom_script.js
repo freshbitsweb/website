@@ -256,8 +256,8 @@ $(function () {
     });
 });
 
-axios.post('/.netlify/functions/fetch_blogs').then((result) => {
-    let blogUl = document.getElementById('blog-ul');
+axios.post('/fetch-blogs').then((result) => {
+    const blogUl = document.getElementById('blog-ul');
     const articles = result.data.data.user.publication.posts;
     const blogDisplayTemplate = document.getElementById('blog-item');
 
