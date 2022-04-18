@@ -665,31 +665,31 @@ var diariesData = [
         "title": "Talk",
         "topic": "Topic: The Power of Automated Refactoring with Hiren @ Laravel Rajkot Meetup",
         "date": "17th April 2022",
-        "id": "laravel-rajkot-talk-april-2022",
+        "id": "laravel-rajkot-meetup-april-2022",
         "images": [
             {
-                "media": "/images/freshbits-diaries/gaurav-hiren-award.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-hiren-award.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/gaurav-hiren-award.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/gaurav-hiren-award.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/group-photo-laravel-meet.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/group-photo-laravel-meet.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/group-photo-laravel-meet.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/group-photo-laravel-meet.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/hiren-talk-on-rector-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/hiren-talk-on-rector-1.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/hiren-talk-on-rector-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/hiren-talk-on-rector-2.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/rajan-receiving-award.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rajan-receiving-award.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/rajan-receiving-award.jpg",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/rajan-receiving-award.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/team-gif.gif",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/team-gif.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/team-gif.gif",
+                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/team-gif.jpg"
             },
         ],
         "tag": "talk"
