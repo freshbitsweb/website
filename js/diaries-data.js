@@ -6,32 +6,28 @@ var diariesData = [
         "id": "memories-2018",
         "images": [
             {
-                "media": "/images/freshbits-diaries/fun-at-company-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-at-company-1.jpg"
+                "media": "/images/freshbits-diaries/memories-2018/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/memories-2018/thumbnails/1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/fun-at-company-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-at-company-1.jpg"
+                "media": "/images/freshbits-diaries/memories-2018/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/memories-2018/thumbnails/2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/fun-at-company-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-at-company-2.jpg"
+                "media": "/images/freshbits-diaries/memories-2018/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/memories-2018/thumbnails/3.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/fun-at-company-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-at-company-3.jpg"
+                "media": "/images/freshbits-diaries/memories-2018/4.jpg",
+                "thumbnail": "/images/freshbits-diaries/memories-2018/thumbnails/4.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/fun-at-company-4.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-at-company-4.jpg"
+                "media": "/images/freshbits-diaries/memories-2018/play-fuss-ball-game-1.mp4",
+                "thumbnail": "/images/freshbits-diaries/memories-2018/thumbnails/play-fuss-ball-game-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/play-fuss-ball-game-1.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/play-fuss-ball-game-1.jpg"
-            },
-            {
-                "media": "/images/freshbits-diaries/play-fuss-ball-game-2.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/play-fuss-ball-game-2.jpg"
+                "media": "/images/freshbits-diaries/memories-2018/play-fuss-ball-game-2.mp4",
+                "thumbnail": "/images/freshbits-diaries/memories-2018/thumbnails/play-fuss-ball-game-2.jpg"
             },
         ],
         "tag": "fun"
@@ -43,12 +39,12 @@ var diariesData = [
         "id": "laravel-ahmedabad-talk-jun-2018",
         "images": [
             {
-                "media": "/images/freshbits-diaries/ahmedabad-laravel-metup-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries//thumbnails/ahmedabad-laravel-metup-gaurav.jpg"
+                "media": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2018/gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2018/thumbnails/gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/ahmedabad-laravel-metup-winner-hiren.jpg",
-                "thumbnail": "/images/freshbits-diaries//thumbnails/ahmedabad-laravel-metup-winner-hiren.jpg"
+                "media": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2018/winner-hiren.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2018/thumbnails/winner-hiren.jpg"
             },
         ],
         "tag": "talk"
@@ -60,16 +56,16 @@ var diariesData = [
         "id": "photo-shoot-feb-2019",
         "images": [
             {
-                "media": "/images/freshbits-diaries/company-photoshot-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/company-photoshot-gaurav.jpg"
+                "media": "/images/freshbits-diaries/photo-shoot-feb-2019/gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/photo-shoot-feb-2019/thumbnails/gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/company-photoshot-hiren.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/company-photoshot-hiren.jpg"
+                "media": "/images/freshbits-diaries/photo-shoot-feb-2019/hiren.jpg",
+                "thumbnail": "/images/freshbits-diaries/photo-shoot-feb-2019/thumbnails/hiren.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/company-photoshot-ramesh.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/company-photoshot-ramesh.jpg"
+                "media": "/images/freshbits-diaries/photo-shoot-feb-2019/ramesh.jpg",
+                "thumbnail": "/images/freshbits-diaries/photo-shoot-feb-2019/thumbnails/ramesh.jpg"
             }
         ],
         "tag": "fun"
@@ -81,24 +77,24 @@ var diariesData = [
         "id": "laravel-live-mumbai-conference-2019",
         "images": [
             {
-                "media": "/images/freshbits-diaries/laravel-mumbai-meetup-5.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-mumbai-meetup-5.jpg"
+                "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/5.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/5.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-mumbai-meetup-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-mumbai-meetup-2.jpg"
+                "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-mumbai-meetup-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-mumbai-meetup-1.jpg"
+                "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-mumbai-meetup-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-mumbai-meetup-3.jpg"
+                "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/3.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-mumbai-meetup-4.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-mumbai-meetup-4.jpg"
+                "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/4.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/4.jpg"
             },
         ],
         "tag": "talk"
@@ -110,20 +106,20 @@ var diariesData = [
         "id": "holi-celebration-mar-2019",
         "images": [
             {
-                "media": "/images/freshbits-diaries/holi-celibration-4.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/holi-celibration-4.jpg"
+                "media": "/images/freshbits-diaries/holi-celebration-mar-2019/4.jpg",
+                "thumbnail": "/images/freshbits-diaries/holi-celebration-mar-2019/thumbnails/4.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/holi-celibration-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/holi-celibration-1.jpg"
+                "media": "/images/freshbits-diaries/holi-celebration-mar-2019/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/holi-celebration-mar-2019/thumbnails/1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/holi-celibration-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/holi-celibration-2.jpg"
+                "media": "/images/freshbits-diaries/holi-celebration-mar-2019/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/holi-celebration-mar-2019/thumbnails/2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/holi-celibration-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/holi-celibration-3.jpg"
+                "media": "/images/freshbits-diaries/holi-celebration-mar-2019/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/holi-celebration-mar-2019/thumbnails/3.jpg"
             }
         ],
         "tag": "fun"
@@ -135,20 +131,20 @@ var diariesData = [
         "id": "laravel-rajkot-talk-jun-2019",
         "images": [
             {
-                "media": "/images/freshbits-diaries/laravel-meetup-rajkot-gaurav-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-meetup-rajkot-gaurav-1.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/gaurav-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/thumbnails/gaurav-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-meetup-rajkot-gaurav-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-meetup-rajkot-gaurav-2.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/gaurav-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/thumbnails/gaurav-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-meetup-rajkot-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-meetup-rajkot-gaurav.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/thumbnails/gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/laravel-meetup-rajkot-team.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-meetup-rajkot-team.jpg"
+                "media": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/team.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/thumbnails/team.jpg"
             }
         ],
         "tag": "talk"
@@ -160,20 +156,20 @@ var diariesData = [
         "id": "laravel-ahmedabad-talk-jun-2019",
         "images": [
             {
-                "media": "/images/freshbits-diaries/ahmedabad-meetup-awarded-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/ahmedabad-meetup-awarded-gaurav.jpg"
+                "media": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/awarded-gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/thumbnails/awarded-gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/ahmedabad-meetup-awarded-gaurav-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/ahmedabad-meetup-awarded-gaurav-2.jpg"
+                "media": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/awarded-gaurav-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/thumbnails/awarded-gaurav-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/ahmedabad-meetup-gaurav-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/ahmedabad-meetup-gaurav-1.jpg"
+                "media": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/gaurav-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/thumbnails/gaurav-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/ahmedabad-meetup-gaurav-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/ahmedabad-meetup-gaurav-2.jpg"
+                "media": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/gaurav-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-ahmedabad-talk-jun-2019/thumbnails/gaurav-2.jpg"
             }
         ],
         "tag": "talk"
@@ -185,8 +181,8 @@ var diariesData = [
         "id": "laravel-mumbai-talk-nov-2019",
         "images": [
             {
-                "media": "/images/freshbits-diaries/laravel-mumbai-meetup.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-mumbai-meetup.jpg"
+                "media": "/images/freshbits-diaries/laravel-mumbai-talk-nov-2019/meetup.jpg",
+                "thumbnail": "/images/freshbits-diaries/laravel-mumbai-talk-nov-2019/thumbnails/meetup.jpg"
             }
         ],
         "tag": "talk"
@@ -198,16 +194,16 @@ var diariesData = [
         "id": "wellknown-college-workshop-feb-2020",
         "images": [
             {
-                "media": "/images/freshbits-diaries/well-known-collage-session-bhavesh-sir.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/well-known-collage-session-bhavesh-sir.jpg"
+                "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/bhavesh-sir.jpg",
+                "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/bhavesh-sir.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/well-known-collage-session-hiren.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/well-known-collage-session-hiren.jpg"
+                "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/hiren.jpg",
+                "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/hiren.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/well-known-collage-session-rajan.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/well-known-collage-session-rajan.jpg"
+                "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/rajan.jpg",
+                "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/rajan.jpg"
             }
         ],
         "tag": "workshop"
@@ -219,16 +215,16 @@ var diariesData = [
         "id": "team-member-marriage-feb-2020",
         "images": [
             {
-                "media": "/images/freshbits-diaries/employee-marriage-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/employee-marriage-1.jpg"
+                "media": "/images/freshbits-diaries/team-member-marriage-feb-2020/hiren-marriage-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/team-member-marriage-feb-2020/thumbnails/hiren-marriage-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/employee-marriage-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/employee-marriage-2.jpg"
+                "media": "/images/freshbits-diaries/team-member-marriage-feb-2020/hiren-marriage-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/team-member-marriage-feb-2020/thumbnails/hiren-marriage-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/employee-marriage-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/employee-marriage-3.jpg"
+                "media": "/images/freshbits-diaries/team-member-marriage-feb-2020/hiren-marriage-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/team-member-marriage-feb-2020/thumbnails/hiren-marriage-3.jpg"
             }
         ],
         "tag": "fun"
@@ -240,28 +236,28 @@ var diariesData = [
         "id": "out-of-the-box-mar-2020",
         "images": [
             {
-                "media": "/images/freshbits-diaries/out-of-the-box-group-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/out-of-the-box-group-1.jpg"
+                "media": "/images/freshbits-diaries/out-of-the-box-mar-2020/group-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/out-of-the-box-mar-2020/thumbnails/group-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/out-of-the-box-play-archery-game-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/out-of-the-box-play-archery-game-gaurav.jpg"
+                "media": "/images/freshbits-diaries/out-of-the-box-mar-2020/play-archery-game-gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/out-of-the-box-mar-2020/thumbnails/play-archery-game-gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/out-of-the-box-play-archery-game-hiren.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/out-of-the-box-play-archery-game-hiren.jpg"
+                "media": "/images/freshbits-diaries/out-of-the-box-mar-2020/play-archery-game-hiren.jpg",
+                "thumbnail": "/images/freshbits-diaries/out-of-the-box-mar-2020/thumbnails/play-archery-game-hiren.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/out-of-the-box-play-archery-game-mishal.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/out-of-the-box-play-archery-game-mishal.jpg"
+                "media": "/images/freshbits-diaries/out-of-the-box-mar-2020/play-archery-game-mishal.jpg",
+                "thumbnail": "/images/freshbits-diaries/out-of-the-box-mar-2020/thumbnails/play-archery-game-mishal.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/out-of-the-box-play-archery-game-rajan.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/out-of-the-box-play-archery-game-rajan.jpg"
+                "media": "/images/freshbits-diaries/out-of-the-box-mar-2020/play-archery-game-rajan.jpg",
+                "thumbnail": "/images/freshbits-diaries/out-of-the-box-mar-2020/thumbnails/play-archery-game-rajan.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/out-of-the-box-play-paint-ball-game.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/out-of-the-box-play-paint-ball-game.jpg"
+                "media": "/images/freshbits-diaries/out-of-the-box-mar-2020/play-paint-ball-game.jpg",
+                "thumbnail": "/images/freshbits-diaries/out-of-the-box-mar-2020/thumbnails/play-paint-ball-game.jpg"
             }
         ],
         "tag": "fun"
@@ -273,20 +269,20 @@ var diariesData = [
         "id": "sunshine-college-workshop-mar-2020",
         "images": [
             {
-                "media": "/images/freshbits-diaries/sunshine-seminar-gaurav-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/sunshine-seminar-gaurav-1.jpeg"
+                "media": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/gaurav-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/thumbnails/gaurav-1.jpeg"
             },
             {
-                "media": "/images/freshbits-diaries/sunshine-seminar-gaurav-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/sunshine-seminar-gaurav-2.jpeg"
+                "media": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/gaurav-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/thumbnails/gaurav-2.jpeg"
             },
             {
-                "media": "/images/freshbits-diaries/sunshine-seminar-gaurav-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/sunshine-seminar-gaurav-3.jpeg"
+                "media": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/gaurav-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/thumbnails/gaurav-3.jpeg"
             },
             {
-                "media": "/images/freshbits-diaries/sunshine-seminar-poster.jpeg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/sunshine-seminar-poster.jpeg"
+                "media": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/poster.jpeg",
+                "thumbnail": "/images/freshbits-diaries/sunshine-college-workshop-mar-2020/thumbnails/poster.jpeg"
             },
         ],
         "tag": "workshop"
@@ -298,28 +294,28 @@ var diariesData = [
         "id": "work-from-home-mar-2020",
         "images": [
             {
-                "media": "/images/freshbits-diaries/work-from-home-gaurav.jpeg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/work-from-home-gaurav.jpg"
+                "media": "/images/freshbits-diaries/work-from-home-mar-2020/gaurav.jpeg",
+                "thumbnail": "/images/freshbits-diaries/work-from-home-mar-2020/thumbnails/gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/work-from-home-hiren.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/work-from-home-hiren.jpg"
+                "media": "/images/freshbits-diaries/work-from-home-mar-2020/hiren.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-from-home-mar-2020/thumbnails/hiren.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/work-from-home-mishal.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/work-from-home-mishal.jpg"
+                "media": "/images/freshbits-diaries/work-from-home-mar-2020/mishal.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-from-home-mar-2020/thumbnails/mishal.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/work-from-home-rajan.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/work-from-home-rajan.jpg"
+                "media": "/images/freshbits-diaries/work-from-home-mar-2020/rajan.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-from-home-mar-2020/thumbnails/rajan.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/work-from-home-team-members.jpeg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/work-from-home-team-members.jpg"
+                "media": "/images/freshbits-diaries/work-from-home-mar-2020/team-members.jpeg",
+                "thumbnail": "/images/freshbits-diaries/work-from-home-mar-2020/thumbnails/team-members.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/work-from-home-celebrations.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/work-from-home-celebrations.jpg"
+                "media": "/images/freshbits-diaries/work-from-home-mar-2020/celebrations.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-from-home-mar-2020/thumbnails/celebrations.jpg"
             },
         ],
         "tag": "fun"
@@ -331,16 +327,16 @@ var diariesData = [
         "id": "motel-the-village-oct-2021",
         "images": [
             {
-                "media": "/images/freshbits-diaries/celebrating-employee-celebration-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/celebrating-employee-celebration-gaurav.png"
+                "media": "/images/freshbits-diaries/motel-the-village-oct-2021/celebrating-team-member-anniversary-gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/motel-the-village-oct-2021/thumbnails/celebrating-team-member-anniversary-gaurav.png"
             },
             {
-                "media": "/images/freshbits-diaries/celebrating-employee-celebration-rajan.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/celebrating-employee-celebration-rajan.png"
+                "media": "/images/freshbits-diaries/motel-the-village-oct-2021/celebrating-team-member-anniversary-rajan.jpg",
+                "thumbnail": "/images/freshbits-diaries/motel-the-village-oct-2021/thumbnails/celebrating-team-member-anniversary-rajan.png"
             },
             {
-                "media": "/images/freshbits-diaries/celebrating-employee-celebration-mishal.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/celebrating-employee-celebration-mishal.png"
+                "media": "/images/freshbits-diaries/motel-the-village-oct-2021/celebrating-team-member-anniversary-mishal.jpg",
+                "thumbnail": "/images/freshbits-diaries/motel-the-village-oct-2021/thumbnails/celebrating-team-member-anniversary-mishal.png"
             }
         ],
         "tag": "fun"
@@ -352,28 +348,28 @@ var diariesData = [
         "id": "rinkos-vr-games-nov-2021",
         "images": [
             {
-                "media": "/images/freshbits-diaries/rinkos-full-team.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rinkos-full-team.jpg"
+                "media": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/full-team.jpg",
+                "thumbnail": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/thumbnails/full-team.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/rinkos-full-team-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rinkos-full-team-2.jpg"
+                "media": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/full-team-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/thumbnails/full-team-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/rinkos-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rinkos-gaurav.jpg"
+                "media": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/thumbnails/gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/rinkos-hiren.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rinkos-hiren.jpg"
+                "media": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/hiren.jpg",
+                "thumbnail": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/thumbnails/hiren.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/rinkos-mishal.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rinkos-mishal.jpg"
+                "media": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/mishal.jpg",
+                "thumbnail": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/thumbnails/mishal.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/rinkos-rajan.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/rinkos-rajan.jpg"
+                "media": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/rajan.jpg",
+                "thumbnail": "/images/freshbits-diaries/rinkos-vr-games-nov-2021/thumbnails/rajan.jpg"
             }
         ],
         "tag": "fun"
@@ -385,36 +381,36 @@ var diariesData = [
         "id": "client-visit-nov-2021",
         "images": [
             {
-                "media": "/images/freshbits-diaries/dinner-with-malaysia-client-at-chokidhani.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/dinner-with-malaysia-client-at-chokidhani.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/dinner-with-at-chokidhani.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/dinner-with-at-chokidhani.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/breakfast-at-rajan-home.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/breakfast-at-rajan-home.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/breakfast-at-rajan-home.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/breakfast-at-rajan-home.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/lunch-with-malaysia-clients.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/lunch-with-malaysia-clients.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/lunch-at-imperial.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/lunch-at-imperial.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/visit-iscon-temple-with-malaysia-clients.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/visit-iscon-temple-with-malaysia-clients.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/visit-iscon-temple.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/visit-iscon-temple.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/visit-swaminarayan-temple-with-malaysia-clients.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/visit-swaminarayan-temple-with-malaysia-clients.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/visit-swaminarayan-temple.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/visit-swaminarayan-temple.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/welcome-gifts-to-client-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/welcome-gifts-to-client-1.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/welcome-gifts-to-client-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/welcome-gifts-to-client-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/welcome-gifts-to-client-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/welcome-gifts-to-client-2.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/welcome-gifts-to-client-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/welcome-gifts-to-client-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/welcome-gifts-to-client-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/welcome-gifts-to-client-3.jpg"
+                "media": "/images/freshbits-diaries/client-visit-nov-2021/welcome-gifts-to-client-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/client-visit-nov-2021/thumbnails/welcome-gifts-to-client-3.jpg"
             }
         ],
         "tag": "fun"
@@ -427,7 +423,7 @@ var diariesData = [
         "images": [
             {
                 "media": "https://www.youtube.com/watch?v=rqohZ8f_1LE",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/static-analysis-tool-with-gaurav-makhecha.png"
+                "thumbnail": "/images/freshbits-diaries/thumbnails/youtube-live-stream-on-static-analysis-nov-2021/static-analysis-tool-with-gaurav-makhecha.png"
             },
         ],
         "tag": "talk"
@@ -440,7 +436,7 @@ var diariesData = [
         "images": [
             {
                 "media": "https://www.youtube.com/watch?v=JIzAKVeFGnU",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/educative-sessions-with-gaurav-makhecha.png"
+                "thumbnail": "/images/freshbits-diaries/thumbnails/youtube-live-stream-with-lee-ngo-nov-2021/educative-sessions-with-gaurav-makhecha.png"
             },
         ],
         "tag": "talk"
@@ -452,8 +448,8 @@ var diariesData = [
         "id": "knowledge-sharing-dec-2021",
         "images": [
             {
-                "media": "/images/freshbits-diaries/git-session-by-gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/git-session-by-gaurav.jpg"
+                "media": "/images/freshbits-diaries/knowledge-sharing-dec-2021/gaurav-git-session.jpg",
+                "thumbnail": "/images/freshbits-diaries/knowledge-sharing-dec-2021/thumbnails/gaurav-git-session.jpg"
             },
         ],
         "tag": "workshop"
@@ -465,36 +461,36 @@ var diariesData = [
         "id": "knockout-dec-2021",
         "images": [
             {
-                "media": "/images/freshbits-diaries/knowkout-bowling.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knowkout-bowling.jpg"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/bowling.jpg",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/bowling.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/knockout-snooker.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knockout-snooker.jpg"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/snooker.jpg",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/snooker.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/dominos-pizza-party.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/dominos-pizza-party.jpg"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/dominos-pizza-party.jpg",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/dominos-pizza-party.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/knowkout-snooker-gaurav.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knowkout-snooker-gaurav.png"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/snooker-gaurav.mp4",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/snooker-gaurav.png"
             },
             {
-                "media": "/images/freshbits-diaries/knowkout-bowling-gaurav.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knowkout-bowling-gaurav.jpg"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/bowling-gaurav.mp4",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/bowling-gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/knockout-bowling-hiren.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knockout-bowling-hiren.png"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/bowling-hiren.mp4",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/bowling-hiren.png"
             },
             {
-                "media": "/images/freshbits-diaries/knockout-bowling-mishal.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knockout-bowling-mishal.png"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/bowling-mishal.mp4",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/bowling-mishal.png"
             },
             {
-                "media": "/images/freshbits-diaries/knockout-bowling-rajan.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/knockout-bowling-rajan.png"
+                "media": "/images/freshbits-diaries/knockout-dec-2021/bowling-rajan.mp4",
+                "thumbnail": "/images/freshbits-diaries/knockout-dec-2021/thumbnails/bowling-rajan.png"
             },
         ],
         "tag": "fun"
@@ -506,8 +502,8 @@ var diariesData = [
         "id": "learning-hours-01",
         "images": [
             {
-                "media": "/images/freshbits-diaries/lerning-hours-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/lerning-hours-1.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-01/mishal-web-security.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-01/thumbnails/mishal-web-security.jpg"
             },
         ],
         "tag": "workshop"
@@ -519,16 +515,16 @@ var diariesData = [
         "id": "learning-hours-02",
         "images": [
             {
-                "media": "/images/freshbits-diaries/learning-hour-2-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/learning-hour-2-1.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-02/hiren-vs-code.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-02/thumbnails/hiren-vs-code.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/learning-hour-2-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/learning-hour-2-2.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-02/activity.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-02/thumbnails/activity.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/learning-hour-2-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/learning-hour-2-3.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-02/gaurav-career-in-programming.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-02/thumbnails/gaurav-career-in-programming.jpg"
             },
         ],
         "tag": "workshop"
@@ -540,12 +536,12 @@ var diariesData = [
         "id": "learning-hours-03",
         "images": [
             {
-                "media": "/images/freshbits-diaries/learning-hour-3-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/learning-hour-3-1.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-03/rajan-data-types-in-depth-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-03/thumbnails/rajan-data-types-in-depth-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/learning-hour-3-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/learning-hour-3-2.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-03/rajan-data-types-in-depth-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-03/thumbnails/rajan-data-types-in-depth-2.jpg"
             }
         ],
         "tag": "workshop"
@@ -557,52 +553,52 @@ var diariesData = [
         "id": "fun-blast-feb-2022",
         "images": [
             {
-                "media": "/images/freshbits-diaries/fun-blast-full-team-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-full-team-1.jpg",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/full-team-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/full-team-1.jpg",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-full-team-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-full-team-2.jpg",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/full-team-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/full-team-2.jpg",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-full-team-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-all-team-3.jpg",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/full-team-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/all-team-3.jpg",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-gaurav-cycling.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-gaurav-cycling.jpg",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/gaurav-cycling.jpg",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/gaurav-cycling.jpg",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-full-team-paint-ball.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-full-team-paint-ball.jpg",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/full-team-paint-ball.jpg",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/full-team-paint-ball.jpg",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-trampoline-game-hiren-utsav-mishal.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-trampoline-game-hiren-utsav-mishal.jpg",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/trampoline-game-hiren-utsav-mishal.jpg",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/trampoline-game-hiren-utsav-mishal.jpg",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-dinesh-zip-line.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-dinesh-zip-line.png",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/dinesh-zip-line.mp4",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/dinesh-zip-line.png",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-gaurav-cycling.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-gaurav-cycling-video.png",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/gaurav-cycling.mp4",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/gaurav-cycling-video.png",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-rajan-sky-cycle-game-1.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-rajan-sky-cycle.png",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/rajan-sky-cycle-game-1.mp4",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/rajan-sky-cycle.png",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-rajan-sky-cycle-game-2.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-rajan.png",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/rajan-sky-cycle-game-2.mp4",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/rajan.png",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-mishal-jumping.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-mishal-jumping.png",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/mishal-jumping.mp4",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/mishal-jumping.png",
             },
             {
-                "media": "/images/freshbits-diaries/fun-blast-gaurav-bowling.mp4",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/fun-blast-gaurav-bolwing.png",
+                "media": "/images/freshbits-diaries/fun-blast-feb-2022/gaurav-bowling.mp4",
+                "thumbnail": "/images/freshbits-diaries/fun-blast-feb-2022/thumbnails/gaurav-bolwing.png",
             },
         ],
         "tag": "fun"
@@ -614,28 +610,28 @@ var diariesData = [
         "id": "learning-hours-04",
         "images": [
             {
-                "media": "/images/freshbits-diaries/gaurav-session-on-basic.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-session-on-basic.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-04/gaurav-session-on-basic.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-04/thumbnails/gaurav-session-on-basic.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/hiren-session-on-bootstrap-vs-tailwind.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/hiren-bootstrap-vs-tailwind.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-04/hiren-session-on-bootstrap-vs-tailwind.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-04/thumbnails/hiren-bootstrap-vs-tailwind.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/mishal-session-on-inertia.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/mishal-session-inertia.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-04/mishal-session-on-inertia.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-04/thumbnails/mishal-session-inertia.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/dinesh-session-on-cookie.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/dinesh-session-cookie.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-04/dinesh-session-cookie.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-04/thumbnails/dinesh-session-cookie.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/all-team-bhel-time.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/all-team-bhel-time.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-04/all-team-bhel-time.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-04/thumbnails/all-team-bhel-time.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/all-team-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/all-team-2.jpg"
+                "media": "/images/freshbits-diaries/learning-hours-04/all-team-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-04/thumbnails/all-team-2.jpg"
             }
         ],
         "tag": "workshop"
@@ -647,16 +643,16 @@ var diariesData = [
         "id": "career-in-programming-iti-rajkot-talk-april-2022",
         "images": [
             {
-                "media": "/images/freshbits-diaries/gaurav-iti-rajkot-talk-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-iti-rajkot-talk-1.jpg"
+                "media": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/gaurav-talk-career-in-programming-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/thumbnails/gaurav-talk-career-in-programming-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/gaurav-iti-rajkot-talk-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-iti-rajkot-talk-2.jpg"
+                "media": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/gaurav-talk-career-in-programming-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/thumbnails/gaurav-talk-career-in-programming-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/gaurav-iti-rajkot-talk-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/gaurav-iti-rajkot-talk-3.jpg"
+                "media": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/gaurav-talk-career-in-programming-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/thumbnails/gaurav-talk-career-in-programming-3.jpg"
             },
         ],
         "tag": "talk"
@@ -669,27 +665,27 @@ var diariesData = [
         "images": [
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/gaurav-hiren-award.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/gaurav-hiren-award.jpg"
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/thumbnails/gaurav-hiren-award.jpg"
             },
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/group-photo-laravel-meet.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/group-photo-laravel-meet.jpg"
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/thumbnails/group-photo-laravel-meet.jpg"
             },
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-1.jpg"
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/thumbnails/hiren-talk-on-rector-1.jpg"
             },
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/hiren-talk-on-rector-2.jpg"
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/thumbnails/hiren-talk-on-rector-2.jpg"
             },
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/rajan-receiving-award.jpg",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/rajan-receiving-award.jpg"
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/thumbnails/rajan-receiving-award.jpg"
             },
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/team-gif.gif",
-                "thumbnail": "/images/freshbits-diaries/thumbnails/laravel-rajkot-meetup-april-2022/team-gif.jpg"
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-april-2022/thumbnails/team-gif.jpg"
             },
         ],
         "tag": "talk"
