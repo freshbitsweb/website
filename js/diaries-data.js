@@ -712,10 +712,6 @@ var diariesData = [
                 "media": "/images/freshbits-diaries/pani-puri-party-april-2022/4.jpg",
                 "thumbnail": "/images/freshbits-diaries/pani-puri-party-april-2022/thumbnails/4.jpg"
             },
-            {
-                "media": "/images/freshbits-diaries/pani-puri-party-april-2022/5.jpg",
-                "thumbnail": "/images/freshbits-diaries/pani-puri-party-april-2022/thumbnails/5.jpg"
-            },
         ],
         "tag": "fun"
     },
@@ -723,39 +719,39 @@ var diariesData = [
         "title": "Collage Workshop",
         "topic": "Topic: Build a Personal Website @ Government Polytechnic",
         "date": "30th April 2022",
-        "id": "poly-technic-workshop-april-2022",
+        "id": "polytechnic-workshop-april-2022",
         "images": [
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/gaurav.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/gaurav.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/gaurav.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/gaurav.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/rajan.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/rajan.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/rajan.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/rajan.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/team-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/team-1.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/team-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/team-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/team-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/team-2.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/team-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/team-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/winner-1.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/winner-1.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/winner-1.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/winner-1.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/winner-2.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/winner-2.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/winner-2.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/winner-2.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/winner-3.jpg",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/winner-3.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/winner-3.jpg",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/winner-3.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/poly-technic-workshop-april-2022/gaurav.gif",
-                "thumbnail": "/images/freshbits-diaries/poly-technic-workshop-april-2022/thumbnails/gaurav-gif.jpg"
+                "media": "/images/freshbits-diaries/polytechnic-workshop-april-2022/gaurav.gif",
+                "thumbnail": "/images/freshbits-diaries/polytechnic-workshop-april-2022/thumbnails/gaurav-gif.jpg"
             },
         ],
         "tag": "workshop"
