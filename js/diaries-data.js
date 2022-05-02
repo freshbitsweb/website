@@ -716,7 +716,7 @@ var diariesData = [
         "tag": "fun"
     },
     {
-        "title": "Collage Workshop",
+        "title": "College Workshop",
         "topic": "Topic: Build a Personal Website @ Government Polytechnic",
         "date": "30th April 2022",
         "id": "polytechnic-workshop-april-2022",
