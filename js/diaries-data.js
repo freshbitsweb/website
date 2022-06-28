@@ -756,4 +756,89 @@ var diariesData = [
         ],
         "tag": "workshop"
     },
+    {
+        "title": "Trip To Girnar and Somnath",
+        "topic": "Fun: Junagadh Girnar, Somnath, Veraval, Village, Zoo, and Restaurants",
+        "date": "21st June 2022 & 22nd June 2022",
+        "id": "trip-to-girnar-and-somnath-june-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/ashvin_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/ashvin_bhai.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/at_farm.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/at_farm.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/bengal_tiger.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/bengal_tiger.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/breakfast_with_client_1.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/breakfast_with_client_1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/breakfast_with_client_2.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/breakfast_with_client_2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/client.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/client.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/dinesh_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/dinesh_bhai.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/dinner_party.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/dinner_party.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/gaurav_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/gaurav_bhai.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/hiren_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/hiren_bhai.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/lunch_with_client_1.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/lunch_with_client_1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/lunch_with_family_and_client_1.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/lunch_with_family_and_client_1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/lunch_with_family_and_client_2.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/lunch_with_family_and_client_2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/mishal_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/mishal_bhai.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/rajan_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/rajan_bhai.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/team_member_with_client_1.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/team_member_with_client_1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/team_member_with_client_2.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/team_member_with_client_2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/team_member_with_client_3.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/team_member_with_client_3.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/utsav_bhai.jpg",
+                "thumbnail": "/images/freshbits-diaries/trip-to-girnar-and-somnath-june-2022/thumbnails/utsav_bhai.jpg"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
