@@ -841,4 +841,25 @@ var diariesData = [
         ],
         "tag": "fun"
     },
+    {
+        "title": "Learning Hours #5",
+        "topic": "VS Code with Dinesh, Git and GitHub with Rajan, nginx with Gaurav",
+        "date": "30th July 2022",
+        "id": "learning-hours-05",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/learning-hours-05/dinesh_vscode_session.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-05/thumbnails/dinesh_vscode_session.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/learning-hours-05/gaurav_nginx_session.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-05/thumbnails/gaurav_nginx_session.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/learning-hours-05/rajan_github_session.jpg",
+                "thumbnail": "/images/freshbits-diaries/learning-hours-05/thumbnails/rajan_github_session.jpg"
+            },
+        ],
+        "tag": "workshop"
+    },
 ];
