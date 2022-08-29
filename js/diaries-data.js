@@ -654,6 +654,10 @@ var diariesData = [
                 "media": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/gaurav-talk-career-in-programming-3.jpg",
                 "thumbnail": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/thumbnails/gaurav-talk-career-in-programming-3.jpg"
             },
+            {
+                "media": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/letter-of-appreciation.jpg",
+                "thumbnail": "/images/freshbits-diaries/iti-rajkot-talk-april-2022/thumbnails/letter-of-appreciation.jpg"
+            },
         ],
         "tag": "talk"
     },
