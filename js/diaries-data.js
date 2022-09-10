@@ -866,4 +866,25 @@ var diariesData = [
         ],
         "tag": "workshop"
     },
+     {
+        "title": "Fun",
+        "topic": "Fun: Pani Puri Party Time",
+        "date": "09th September 2022",
+        "id": "pani-puri-party-september-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/pani-puri-party-september-2022/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/pani-puri-party-september-2022/thumbnails/1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/pani-puri-party-september-2022/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/pani-puri-party-september-2022/thumbnails/2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/pani-puri-party-september-2022/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/pani-puri-party-september-2022/thumbnails/3.jpg"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
