@@ -214,7 +214,7 @@ var diariesData = [
                 "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/rajan.jpg"
             },
             {
-                "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/rajan1.jpeg",
+                "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/rajan2.jpeg",
                 "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/rajan2.jpeg"
             },
         ],
