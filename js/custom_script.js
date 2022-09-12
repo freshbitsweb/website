@@ -182,32 +182,38 @@ $('body').scrollspy({
 });
 
 $(function () {
-    var totalImages = 15;
-    var images = [];
+    var totalImages = diariesData.length;
+    var imagesCount = [];
 
     for (let index = 1; index <= totalImages; index++) {
-        images.push(index);
+        imagesCount.push(index);
     }
+    randomImagesCount = imagesCount.map(x => ({
+        x,
+        r: Math.random()
+    }))
+    .sort((a, b) => a.r - b.r)
+    .map(a => a.x)
+    .slice(0, 5);
 
-    images = images.map(x => ({
+    for (let index = 0; index < randomImagesCount.length; index++) {
+        var imageNumber = randomImagesCount[index];
+
+        var diaries = diariesData[imageNumber]['images'].map(x => ({
             x,
             r: Math.random()
         }))
         .sort((a, b) => a.r - b.r)
         .map(a => a.x)
-        .slice(0, 5);
-
-    for (let index = 0; index < images.length; index++) {
-        var imageNumber = images[index];
+        .slice(0, 1);
 
         $('#image-container').append(`
-                    <a href="/images/events/` + imageNumber + `.jpeg" target="_blank" id="events-image-` + index + `">
-                        <div class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
-                    </a>
-                `);
+            <a href="https://www.freshbits.in/diaries#`+ diariesData[imageNumber]['id'] +`" target="_blank" id="images-` + index + `">
+                <div class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
+            </a>
+        `);
 
-        $('#image-container #events-image-' + index).css('background-image',
-            'url(/images/events/thumbs/' + imageNumber + '.jpeg)')
+        $('#image-container #images-' + index).css({ "background-image": "url("+ diaries[0]['thumbnail'] +")", "background-repeat": "no-repeat", "background-position": "center", "background-size": "140px"})
     }
 
     $('a.page-scroll').bind('click', function (event) {
