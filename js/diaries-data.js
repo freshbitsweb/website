@@ -96,6 +96,10 @@ var diariesData = [
                 "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/4.jpg",
                 "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/4.jpg"
             },
+            {
+                "media": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/6.jpeg",
+                "thumbnail": "/images/freshbits-diaries/laravel-live-mumbai-conference-2019/thumbnails/6.jpeg"
+            },
         ],
         "tag": "talk"
     },
@@ -145,6 +149,10 @@ var diariesData = [
             {
                 "media": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/team.jpg",
                 "thumbnail": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/thumbnails/team.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/group_photo.jpeg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-talk-jun-2019/thumbnails/group_photo.jpeg"
             }
         ],
         "tag": "talk"
@@ -204,7 +212,11 @@ var diariesData = [
             {
                 "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/rajan.jpg",
                 "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/rajan.jpg"
-            }
+            },
+            {
+                "media": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/rajan2.jpeg",
+                "thumbnail": "/images/freshbits-diaries/wellknown-college-workshop-feb-2020/thumbnails/rajan2.jpeg"
+            },
         ],
         "tag": "workshop"
     },
