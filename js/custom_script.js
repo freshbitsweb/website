@@ -182,33 +182,15 @@ $('body').scrollspy({
 });
 
 $(function () {
-    var totalImages = 15;
-    var images = [];
-
-    for (let index = 1; index <= totalImages; index++) {
-        images.push(index);
-    }
-
-    images = images.map(x => ({
-            x,
-            r: Math.random()
-        }))
-        .sort((a, b) => a.r - b.r)
-        .map(a => a.x)
-        .slice(0, 5);
-
-    for (let index = 0; index < images.length; index++) {
-        var imageNumber = images[index];
-
+    diariesData.sort(() => Math.random() - Math.random()).slice(0, 5).map(function (data) {
         $('#image-container').append(`
-                    <a href="/images/events/` + imageNumber + `.jpeg" target="_blank" id="events-image-` + index + `">
-                        <div class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
-                    </a>
-                `);
+            <a href="https://www.freshbits.in/diaries#`+ data.id + `" target="_blank" id="images-` + data.id + `">
+                <div class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
+            </a>
+        `);
 
-        $('#image-container #events-image-' + index).css('background-image',
-            'url(/images/events/thumbs/' + imageNumber + '.jpeg)')
-    }
+        $('#image-container #images-' + data.id).css({ "background-image": "url(" + data.images[0]['thumbnail'] + ")", "background-repeat": "no-repeat", "background-position": "center", "background-size": "140px" })
+    });
 
     $('a.page-scroll').bind('click', function (event) {
         if ($(window).width < 768) {
