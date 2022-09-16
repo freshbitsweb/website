@@ -182,39 +182,15 @@ $('body').scrollspy({
 });
 
 $(function () {
-    var totalImages = diariesData.length;
-    var imagesCount = [];
-
-    for (let index = 1; index <= totalImages; index++) {
-        imagesCount.push(index);
-    }
-    randomImagesCount = imagesCount.map(x => ({
-        x,
-        r: Math.random()
-    }))
-    .sort((a, b) => a.r - b.r)
-    .map(a => a.x)
-    .slice(0, 5);
-
-    for (let index = 0; index < randomImagesCount.length; index++) {
-        var imageNumber = randomImagesCount[index];
-
-        var diaries = diariesData[imageNumber]['images'].map(x => ({
-            x,
-            r: Math.random()
-        }))
-        .sort((a, b) => a.r - b.r)
-        .map(a => a.x)
-        .slice(0, 1);
-
+    diariesData.sort(() => Math.random() - Math.random()).slice(0, 5).map(function (data) {
         $('#image-container').append(`
-            <a href="https://www.freshbits.in/diaries#`+ diariesData[imageNumber]['id'] +`" target="_blank" id="images-` + index + `">
+            <a href="https://www.freshbits.in/diaries#`+ data.id + `" target="_blank" id="images-` + data.id + `">
                 <div class="animated" data-animation="fadeInUp" data-animation-delay="600"></div>
             </a>
         `);
 
-        $('#image-container #images-' + index).css({ "background-image": "url("+ diaries[0]['thumbnail'] +")", "background-repeat": "no-repeat", "background-position": "center", "background-size": "140px"})
-    }
+        $('#image-container #images-' + data.id).css({ "background-image": "url(" + data.images[0]['thumbnail'] + ")", "background-repeat": "no-repeat", "background-position": "center", "background-size": "140px" })
+    });
 
     $('a.page-scroll').bind('click', function (event) {
         if ($(window).width < 768) {
