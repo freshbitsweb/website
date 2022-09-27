@@ -899,4 +899,29 @@ var diariesData = [
         ],
         "tag": "fun"
     },
+    {
+        "title": "Talk",
+        "topic": "Topic: Fun with Filament by Utsav @ Laravel Rajkot Meetup",
+        "date": "25th September 2022",
+        "id": "laravel-rajkot-meetup-september-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/1.jpeg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/thumbnails/1.jpeg"
+            },
+            {
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/2.jpeg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/thumbnails/2.jpeg"
+            },
+            {
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/3.jpeg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/thumbnails/3.jpeg"
+            },
+            {
+                "media": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/4.jpeg",
+                "thumbnail": "/images/freshbits-diaries/laravel-rajkot-meetup-september-2022/thumbnails/4.jpeg"
+            },
+        ],
+        "tag": "talk"
+    },
 ];
