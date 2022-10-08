@@ -899,4 +899,37 @@ var diariesData = [
         ],
         "tag": "fun"
     },
+    {
+        "title": "Fun",
+        "topic": "Topic: Dinner & Navratri-2022",
+        "date": "04th October 2022",
+        "id": "navratri-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/navratri-2022/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/navratri-2022/thumbnails/1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/navratri-2022/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/navratri-2022/thumbnails/2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/navratri-2022/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/navratri-2022/thumbnails/3.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/navratri-2022/4.jpg",
+                "thumbnail": "/images/freshbits-diaries/navratri-2022/thumbnails/4.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/navratri-2022/5.jpg",
+                "thumbnail": "/images/freshbits-diaries/navratri-2022/thumbnails/5.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/navratri-2022/6.jpg",
+                "thumbnail": "/images/freshbits-diaries/navratri-2022/thumbnails/6.jpg"
+            },
+        ],
+    "tag": "Fun"
+},
 ];
