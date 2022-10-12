@@ -189,7 +189,9 @@ $(function () {
             </a>
         `);
 
-        $('#image-container #images-' + data.id).css({ "background-image": "url(" + data.images[0]['thumbnail'] + ")", "background-repeat": "no-repeat", "background-position": "center", "background-size": "140px" })
+        data.images.sort(() => Math.random() - Math.random()).slice(0, 1).map(function (image) {
+            return $('#image-container #images-' + data.id).css({ "background-image": "url(" + image.thumbnail + ")", "background-repeat": "no-repeat", "background-position": "center", "background-size": "140px" });
+        });
     });
 
     $('a.page-scroll').bind('click', function (event) {
