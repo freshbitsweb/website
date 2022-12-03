@@ -959,7 +959,7 @@ var diariesData = [
     },
     {
         "title": "Fun",
-        "topic": "Topic: Lunch And Gandhi Ashram Visit",
+        "topic": "Lunch And Gandhi Ashram Visit",
         "date": "22nd October 2022",
         "id": "gandhi-ashram-visit-october-2022",
         "images": [
