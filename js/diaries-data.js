@@ -957,4 +957,85 @@ var diariesData = [
         ],
         "tag": "Fun"
     },
+    {
+        "title": "Fun",
+        "topic": "Topic: Lunch And Gandhi Ashram Visit",
+        "date": "22nd October 2022",
+        "id": "gandhi-ashram-visit-october-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/3.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/4.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/4.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/5.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/5.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/6.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/6.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/7.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/7.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/8.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/8.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/9.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/9.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/10.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/10.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/11.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/11.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/12.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/12.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/13.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/13.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/14.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/14.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/15.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/15.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/16.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/16.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/17.jpg",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/17.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/18.mp4",
+                "thumbnail": "/images/freshbits-diaries/gandhi-ashram-visit-october-2022/thumbnails/18.png"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
