@@ -3370,3 +3370,15 @@ form label {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media only screen and (max-width: 900px) {
+    .img-fluid {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .img-fluid {
+        width: 100%;
+    }
+}
