@@ -1055,19 +1055,19 @@ var diariesData = [
         "title": "Fun",
         "topic": "Dinner With Team Members At Amritsari Hatti",
         "date": "20th December 2022",
-        "id": "amritsari-hatti-october-2022",
+        "id": "amritsari-hatti-december-2022",
         "images": [
             {
-                "media": "/images/freshbits-diaries/amritsari-hatti-october-2022/1.jpeg",
-                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-october-2022/thumbnails/1.jpeg"
+                "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/1.jpeg",
+                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/1.jpeg"
             },
             {
-                "media": "/images/freshbits-diaries/amritsari-hatti-october-2022/2.jpeg",
-                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-october-2022/thumbnails/2.jpeg"
+                "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/2.jpeg",
+                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/2.jpeg"
             },
             {
-                "media": "/images/freshbits-diaries/amritsari-hatti-october-2022/3.jpeg",
-                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-october-2022/thumbnails/3.jpeg"
+                "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/3.jpeg",
+                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/3.jpeg"
             },
         ],
         "tag": "fun"
