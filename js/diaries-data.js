@@ -1065,10 +1065,6 @@ var diariesData = [
                 "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/2.jpeg",
                 "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/2.jpeg"
             },
-            {
-                "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/3.jpeg",
-                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/3.jpeg"
-            },
         ],
         "tag": "fun"
     },
