@@ -1065,10 +1065,6 @@ var diariesData = [
                 "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/2.jpeg",
                 "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/2.jpeg"
             },
-            {
-                "media": "/images/freshbits-diaries/amritsari-hatti-december-2022/3.jpeg",
-                "thumbnail": "/images/freshbits-diaries/amritsari-hatti-december-2022/thumbnails/3.jpeg"
-            },
         ],
         "tag": "fun"
     },
@@ -1089,14 +1085,6 @@ var diariesData = [
             {
                 "media": "/images/freshbits-diaries/new-year-bhel-party-december-2022/3.jpg",
                 "thumbnail": "/images/freshbits-diaries/new-year-bhel-party-december-2022/thumbnails/3.jpg"
-            },
-            {
-                "media": "/images/freshbits-diaries/new-year-bhel-party-december-2022/4.jpg",
-                "thumbnail": "/images/freshbits-diaries/new-year-bhel-party-december-2022/thumbnails/4.jpg"
-            },
-            {
-                "media": "/images/freshbits-diaries/new-year-bhel-party-december-2022/5.jpg",
-                "thumbnail": "/images/freshbits-diaries/new-year-bhel-party-december-2022/thumbnails/5.jpg"
             },
         ],
         "tag": "fun"
