@@ -1099,14 +1099,6 @@ var diariesData = [
                 "media": "/images/freshbits-diaries/dinner-with-team-member-at-rajan-house-2023/1.jpeg",
                 "thumbnail": "/images/freshbits-diaries/dinner-with-team-member-at-rajan-house-2023/thumbnails/1.jpeg"
             },
-            {
-                "media": "/images/freshbits-diaries/dinner-with-team-member-at-rajan-house-2023/2.jpeg",
-                "thumbnail": "/images/freshbits-diaries/dinner-with-team-member-at-rajan-house-2023/thumbnails/2.jpeg"
-            },
-            {
-                "media": "/images/freshbits-diaries/dinner-with-team-member-at-rajan-house-2023/3.jpg",
-                "thumbnail": "/images/freshbits-diaries/dinner-with-team-member-at-rajan-house-2023/thumbnails/3.jpg"
-            },
         ],
         "tag": "fun"
     },
