@@ -1038,4 +1038,17 @@ var diariesData = [
         ],
         "tag": "fun"
     },
+    {
+        "title": "Fun",
+        "topic": "Diwali Wishes",
+        "date": "25nd October 2022",
+        "id": "diwali-wishes-october-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/diwali-wishes-october-2022/1.png",
+                "thumbnail": "/images/freshbits-diaries/diwali-wishes-october-2022/thumbnails/1.png"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
