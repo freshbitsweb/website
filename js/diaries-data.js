@@ -1068,4 +1068,25 @@ var diariesData = [
         ],
         "tag": "fun"
     },
+    {
+        "title": "Fun",
+        "topic": "New Year Bhel Party",
+        "date": "31th December 2022",
+        "id": "new-year-bhel-party-december-2022",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/new-year-bhel-party-december-2022/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/new-year-bhel-party-december-2022/thumbnails/1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/new-year-bhel-party-december-2022/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/new-year-bhel-party-december-2022/thumbnails/2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/new-year-bhel-party-december-2022/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/new-year-bhel-party-december-2022/thumbnails/3.jpg"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
