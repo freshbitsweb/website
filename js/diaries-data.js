@@ -1089,4 +1089,17 @@ var diariesData = [
         ],
         "tag": "fun"
     },
+    {
+        "title": "Fun",
+        "topic": "Dinner With Team Members at Rajan's new flat",
+        "date": "1st January 2022",
+        "id": "dinner-with-team-members-at-rajans-new-flat-2023",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/dinner-with-team-members-at-rajans-new-flat-2023/1.jpeg",
+                "thumbnail": "/images/freshbits-diaries/dinner-with-team-members-at-rajans-new-flat-2023/thumbnails/1.jpeg"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
