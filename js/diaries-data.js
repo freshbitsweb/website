@@ -1091,7 +1091,7 @@ var diariesData = [
     },
     {
         "title": "Fun",
-        "topic": "Dinner With Team Member At Rajan House",
+        "topic": "Dinner With Team Members at Rajan's new flat",
         "date": "1st January 2022",
         "id": "dinner-with-team-member-at-rajan-house-2023",
         "images": [
