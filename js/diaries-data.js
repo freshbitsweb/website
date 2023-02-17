@@ -1092,7 +1092,7 @@ var diariesData = [
     {
         "title": "Fun",
         "topic": "Dinner With Team Members at Rajan's new flat",
-        "date": "1st January 2022",
+        "date": "1st January 2023",
         "id": "dinner-with-team-members-at-rajans-new-flat-2023",
         "images": [
             {
@@ -1101,5 +1101,18 @@ var diariesData = [
             },
         ],
         "tag": "fun"
+    },
+    {
+        "title": "Laravel India Podcast",
+        "topic": "Laravel India Podcast with Gaurav Makhecha",
+        "date": "15th February 2023",
+        "id": "laravel-india-podcast-february-2023",
+        "images": [
+            {
+                "media": "https://www.youtube.com/watch?v=Ng9YmeJdw-g",
+                "thumbnail": "/images/freshbits-diaries/laravel-india-podcast-february-2023/thumbnails/1.png"
+            },
+        ],
+        "tag": "talk"
     },
 ];
