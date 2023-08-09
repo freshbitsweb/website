@@ -1180,4 +1180,65 @@ var diariesData = [
         ],
         "tag": "talk"
     },
+    {
+        "title": "Malaysia Trip V2",
+        "topic": "Work And Fun",
+        "date": "15th June 2023",
+        "id": "work-and-fun-in-malaysia-june-2023",
+        "images": [
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/1.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/1.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/2.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/2.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/3.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/3.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/4.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/4.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/5.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/5.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/6.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/6.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/7.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/7.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/8.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/8.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/9.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/9.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/10.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/10.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/11.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/11.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/12.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/12.jpg"
+            },
+            {
+                "media": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/13.jpg",
+                "thumbnail": "/images/freshbits-diaries/work-and-fun-in-malaysia-june-2023/thumbnails/13.jpg"
+            },
+        ],
+        "tag": "fun"
+    },
 ];
